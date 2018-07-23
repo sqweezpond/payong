@@ -130,6 +130,9 @@ body {
     height: 50px;
     font-size: 30px;
 }
+.z-index{
+    z-index: 1;
+}
 /*----------- END NAVBAR 1 --------------*/
 
 
@@ -147,11 +150,64 @@ body {
 
 
 /*-----------------------------------
--------------- HOME -----------------
+-------------- PAY-1 -----------------
 -------------------------------------*/
-
+.pay1-font{
+    font-size: 25px;
+    color: #333333;
+    font-family: "kanitmedium";
+}
+.pay1-font2{
+    font-size: 25px;
+    color: #333333;
+    font-family: "kanitlight";
+}
+.pay1-p-t{
+    padding-top: 50px;
+}
+.pay1-p-t2{
+    padding-top: 80px;
+}
+.pay1-p-l{
+    padding-left: 40px;
+}
+.pay1-overlay-image{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 157px;
+}
+.pay1-image-full{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pay1-p-l{
+    padding-left: 60px;
+}
+.nav-btn {
+    background-color: #f9b742;
+    width: 170px;
+    height: 55px;
+    font-size: 22px;
+    color: #fff;
+    font-family: "kanitlight";
+    transition: all 0.3s;
+}
+.nav-btn:hover {
+    background-color: #5DADE2;
+    width: 170px;
+    height: 55px;
+    font-size: 22px;
+    color: #fff;
+    font-family: "kanitlight";
+    transition: all 0.3s;
+}
 /*-------------------------------------
-------------- END HOME ----------------
+------------- END PAY-1 ----------------
 ---------------------------------------*/
 
 
@@ -181,11 +237,29 @@ body {
 
 
   /*-------------------------------------
-  ------------- HOME 1024 ----------------
+  ------------- PAY-1 1024 ----------------
   ---------------------------------------*/
-
+  .pay1-font {
+      font-size: 20px;
+      color: #333333;
+      font-family: "kanitmedium";
+  }
+  .pay1-font2 {
+      font-size: 20px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .pay1-p-l {
+      padding-left: 50px;
+  }
+  .pay1-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 129px;
+  }
   /*-------------------------------------
-  ----------- END HOME 1024 ------------
+  ----------- END PAY-1 1024 ------------
   ---------------------------------------*/
 
 
@@ -222,7 +296,7 @@ body {
   .nav-bg2{
       background-color: #094979;
       padding: 10px;
-      margin-top: 20px;
+      margin-top: 25px;
   }
   .nav-m-t {
       margin-top: 5px;
@@ -238,6 +312,31 @@ body {
       margin-left: -13px;
       margin-bottom: 20px;
   }
+  .nav-hamburger {
+      color: black;
+      background: white;
+      width: 40px;
+      height: 40px;
+      font-size: 17px;
+  }
+  .nav-btn {
+      background-color: #f9b742;
+      width: 136px;
+      height: 40px;
+      font-size: 19px;
+      color: #fff;
+      font-family: "kanitlight";
+      transition: all 0.3s;
+  }
+  .nav-btn:hover {
+      background-color: #5DADE2;
+      width: 136px;
+      height: 40px;
+      font-size: 19px;
+      color: #fff;
+      font-family: "kanitlight";
+      transition: all 0.3s;
+  }
   /*----------- END NAVBAR (768) ------------*/
 
 
@@ -246,11 +345,35 @@ body {
   /*----------- END FOOTER (768) -------------*/
 
   /*-------------------------------------
-  ------------- HOME 768 ----------------
+  ------------- PAY-1 768 ----------------
   ---------------------------------------*/
-
+  .pay1-font {
+      font-size: 16px;
+      color: #333333;
+      font-family: "kanitmedium";
+  }
+  .pay1-font2 {
+      font-size: 16px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .pay1-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 119px;
+  }
+  .pay1-p-t2 {
+      padding-top: 55px;
+  }
+  .pay1-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 96px;
+  }
   /*------------------------------------
-  ---------- END HOME 768 --------------
+  ---------- END PAY-1 768 --------------
   ---------------------------------------*/
 }
 
@@ -330,6 +453,11 @@ body {
       background-size: cover;
       height: 172px;
   }
+  .nav-bg2 {
+      background-color: #094979;
+      padding: 10px;
+      margin-top: 24px;
+  }
   .nav-p-t2 {
       padding-top: 22px;
   }
@@ -356,11 +484,35 @@ body {
 
 
   /*------------------------------------
-  -------------  HOME 414 --------------
+  -------------  PAY-1 414 --------------
   ---------------------------------------*/
-
+  .pay1-font {
+      font-size: 15px;
+      color: #333333;
+      font-family: "kanitmedium";
+  }
+  .pay1-font2 {
+      font-size: 15px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .pay1-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 102px;
+  }
+  .pay1-p-l {
+      padding-left: 18px;
+  }
+  .pay1-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 86px;
+  }
   /*------------------------------------
-  ---------- END HOME 414 --------------
+  ---------- END PAY-1 414 --------------
   ---------------------------------------*/
 
 }
@@ -422,11 +574,20 @@ body {
   /*----------- END FOOTER (375) ------------*/
 
   /*------------------------------------
-  -------------  HOME 375 --------------
+  ------------- PAY-1 375 --------------
   ---------------------------------------*/
-
+  .pay1-font {
+      font-size: 15px;
+      color: #333333;
+      font-family: "kanitmedium";
+  }
+  .pay1-font2 {
+      font-size: 13px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
   /*------------------------------------
-  ---------- END HOME 375 --------------
+  ---------- END PAY-1 375 --------------
   ---------------------------------------*/
 
 
@@ -524,10 +685,25 @@ body {
   /*--------- END FOOTER (320) ---------*/
 
   /*------------------------------------
-  ----------  HOME 320 --------------
+  ----------  PAY-1 320 --------------
   ---------------------------------------*/
-
+  .pay1-font {
+      font-size: 13px;
+      color: #333333;
+      font-family: "kanitmedium";
+  }
+  .pay1-font2 {
+      font-size: 10px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .pay1-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 65px;
+  }
   /*------------------------------------
-  ---------- END HOME 320 --------------
+  ---------- END PAY-1 320 --------------
   ---------------------------------------*/
 }

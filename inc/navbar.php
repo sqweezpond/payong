@@ -43,7 +43,7 @@
 							<div class="col-md-6 col-6 text-right d-block d-lg-none d-md-block px-0">
 									<button type="button" class="btn nav-btn">แจ้งโอนเงิน</button>
 							</div>
-							<div class="col-xl-9 col-lg-9 px-0 pl-2">
+							<div class="col-xl-9 col-lg-9 px-0 z-index">
 							<div class="collapse navbar-collapse nav-bg2" id="navbarNavDropdown">
 									<ul class="navbar-nav">
 											<li class="nav-item active">
