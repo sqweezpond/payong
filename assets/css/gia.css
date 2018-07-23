@@ -1,0 +1,126 @@
+
+
+
+/*-----index-------*/
+
+.pro_frame-crad{
+    position:relative;
+    overflow: hidden;
+    width: 100%;
+    height: 740px;
+
+}
+.pro_card-img-top {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.pro_frame-crad-1{
+    position:relative;
+    overflow: hidden;
+    width: 100%;
+    height:315px;
+
+}
+.pro_card-img-top-1 {
+    position:absolute;
+    top:72%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+		padding: 15px 15px 100px 15px;
+}
+
+.in-dex-card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    border-top-color: #FFC107;
+    width: 103%;
+}
+.pro_text_topics{
+	font-size: 20px;
+	font-weight: 600;
+
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #3b4146;
+    border-color: #6c757d;
+    padding: 15px 20px 15px 20px;
+    margin-top: -120px;
+}
+
+/*-----index end---*/
+
+
+
+@media(max-width: 1366px){
+  /*----------- NAVBAR (1366)------------------*/
+
+  /*----------END NAVBAR (1366)------------*/
+
+
+  /*---------- FOOTER (1366)------------*/
+
+  /*----------END FOOTER (1366)------------*/
+}
+
+
+@media(max-width: 1024px){
+
+/*-----------about 1024------------------*/
+.pro_frame-crad {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 620px;
+}
+/*-----------about 1024 end--------------*/
+
+}
+@media(max-width: 768px){
+
+  /*-----------index 768-------------------*/
+  .in-dex-card{
+    width: 100%;
+  }
+
+  /*-----------index 768 end---------------*/
+
+  /*-----------about 768------------------*/
+  .pro_frame-crad {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 460px;
+}
+  /*-----------about 768 end--------------*/
+}
+@media(max-width: 414px){
+
+  /*------about 414--------*/
+  .pro_frame-crad {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 256px;
+}
+/*--------about end 414-------*/
+}
+
+@media(max-width: 375px){
+}
+@media(max-width: 320px){
+}

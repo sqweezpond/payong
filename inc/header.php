@@ -28,4 +28,5 @@
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/gia.css">
     <link rel="stylesheet" type="text/css" href="font-icon/flaticon.css">
