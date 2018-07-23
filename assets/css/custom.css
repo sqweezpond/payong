@@ -421,6 +421,18 @@ body {
       font-size: 20px;
       color: #333333;
   }
+  .nav-font4 {
+      font-size: 20px;
+      color: white;
+      font-family: "kanitlight";
+      transition: all 0.3s;
+  }
+  .nav-font4:hover {
+      font-size: 20px;
+      color: #85C1E9;
+      font-family: "kanitlight";
+      transition: all 0.3s;
+  }
   .pay1-overlay-image {
       position: relative;
       width: 100%;
@@ -433,7 +445,7 @@ body {
   .nav-bg2{
       background-color: #054372;
       padding: 10px;
-      margin-top: 25px;
+      margin-top: 40px;
   }
   .nav-m-t {
       margin-top: 5px;
@@ -450,11 +462,12 @@ body {
       margin-bottom: 5px;
   }
   .nav-hamburger {
-      color: black;
-      background: white;
+      color: white;
+      border: 2px solid white;
+      background-color: inherit;
       width: 40px;
       height: 40px;
-      font-size: 17px;
+      font-size: 16px;
   }
   .nav-btn {
       background-color: #f9b742;
@@ -753,11 +766,12 @@ body {
       height: 37px;
   }
   .nav-hamburger {
-      color: black;
-      background: white;
+      color: white;
+      border: 2px solid white;
+      background-color: inherit;
       width: 40px;
       height: 40px;
-      font-size: 18px;
+      font-size: 15px;
   }
   .nav-btn {
       background-color: #f9b742;
@@ -911,11 +925,12 @@ body {
       margin-bottom: 17px;
   }
   .nav-hamburger {
-      color: black;
-      background: white;
+      color: white;
+      border: 2px solid white;
+      background-color: inherit;
       width: 40px;
       height: 35px;
-      font-size: 16px;
+      font-size: 15px;
   }
   .nav-btn {
       background-color: #f9b742;
