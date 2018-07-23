@@ -17,7 +17,7 @@
         <div class="container pb-5">
             <div class="row pay1-p-t">
                 <div class="col-xl-4 col-lg-4 col-md-4 col-5 text-center text-lg-left text-md-left">
-                    <div class="pay1-font">บริการดูดวงส่วนตัว</div>
+                    <div class="pay1-font text-center">บริการดูดวงส่วนตัว</div>
                 </div>
                 <div class="col-xl-8 col-lg-8 col-md-8 col-7 pay1-p-l">
                     <div class="row mx-0">
@@ -36,7 +36,7 @@
             <div class="row pay1-p-t2">
                 <div class="col-xl-4 col-lg-4 col-md-4 col-5">
                   <div class="row">
-                    <div class="col-10">
+                    <div class="col-9 pay1-m-l">
                     <div class="pay1-overlay-image">
                       <img src="assets/images/pay/scb.jpg" class="pay1-image-full">
                     </div>
