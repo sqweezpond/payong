@@ -1,7 +1,7 @@
 
 
 <!--- NAVBAR 1 ------------------------------------------------->
-	 	 <div class="container">
+	 	 <div class="nav-padding-1">
 					<div class="row nav-m-t">
 							<div class="col-xl-6 col-lg-7 col-md-9 col-9">
 							   <div class="row">
@@ -35,7 +35,7 @@
 
 <!-- NAVBAR 2 ---------------------------------------------------->
 <div class="nav-bg">
-		<div class="container">
+		<div class="nav-padding-1">
 				<nav class="navbar navbar-expand-lg nav-p-t px-0">
 							<button class="navbar-toggler nav-hamburger" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 									<i class="fa fa-bars" aria-hidden="true"></i>

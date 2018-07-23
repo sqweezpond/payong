@@ -81,7 +81,7 @@ body {
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 68px;
+    height: 88px;
 }
 .nav-image-full{
     position: absolute;
@@ -133,6 +133,21 @@ body {
 .z-index{
     z-index: 1;
 }
+.nav-padding-1{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.nav-position-a{
+    position: absolute;
+    margin-top: -29px;
+    margin-left: -6px;
+}
+.nav-position-r{
+    position: relative;
+    margin-top: -8px;
+    margin-left: -14px;
+    margin-bottom: 20px;
+}
 /*----------- END NAVBAR 1 --------------*/
 
 
@@ -175,7 +190,7 @@ body {
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 157px;
+    height: 174px;
 }
 .pay1-image-full{
     position: absolute;
@@ -188,33 +203,70 @@ body {
 .pay1-p-l{
     padding-left: 60px;
 }
-.nav-btn {
-    background-color: #f9b742;
-    width: 170px;
-    height: 55px;
-    font-size: 22px;
-    color: #fff;
-    font-family: "kanitlight";
-    transition: all 0.3s;
-}
-.nav-btn:hover {
-    background-color: #5DADE2;
-    width: 170px;
-    height: 55px;
-    font-size: 22px;
-    color: #fff;
-    font-family: "kanitlight";
-    transition: all 0.3s;
-}
 /*-------------------------------------
 ------------- END PAY-1 ----------------
+---------------------------------------*/
+
+/*-------------------------------------
+------------- PAY-CONFIRM --------------
+---------------------------------------*/
+.paycon-m-t{
+    margin-top: 50px;
+}
+.paycon-m-t2{
+    margin-top: 30px;
+}
+.paycon-m-t3{
+    margin-top: 40px;
+}
+.paycon-font{
+    font-size: 20px;
+    color: #333333;
+}
+.paycon-font:hover{
+    font-size: 20px;
+    color: #999;
+}
+.paycon-font2{
+    font-size: 18px;
+    color: #333333;
+}
+.paycon-font3{
+    font-size: 18px;
+    color: #333333;
+    font-family: "kanitlight";
+}
+.paycon-font4{
+    font-size: 15px;
+    color: #415f89;
+}
+.paycon-overlay-image{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 476px;
+}
+.paycon-image-full{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid #e9eae9;
+}
+/*-------------------------------------
+---------- END PAY-CONFIRM ------------
 ---------------------------------------*/
 
 
 
 @media(max-width: 1366px){
   /*----------- NAVBAR (1366)------------------*/
-
+  .nav-padding-1{
+      padding-left: 100px;
+      padding-right: 100px;
+  }
   /*----------END NAVBAR (1366)------------*/
 
 
@@ -227,7 +279,39 @@ body {
 @media(max-width: 1024px){
 
   /*----------- NAVBAR (1024)------------------*/
-
+  .nav-btn {
+      background-color: #f9b742;
+      width: 170px;
+      height: 55px;
+      font-size: 22px;
+      color: #fff;
+      font-family: "kanitlight";
+      transition: all 0.3s;
+  }
+  .nav-btn:hover {
+      background-color: #5DADE2;
+      width: 170px;
+      height: 55px;
+      font-size: 22px;
+      color: #fff;
+      font-family: "kanitlight";
+      transition: all 0.3s;
+  }
+  .nav-padding-1{
+      padding-left:50px;
+      padding-right: 50px;
+  }
+  .nav-position-a {
+      position: absolute;
+      margin-top: -29px;
+      margin-left: -10px;
+  }
+  .nav-position-r {
+      position: relative;
+      margin-top: -12px;
+      margin-left: -13px;
+      margin-bottom: 20px;
+  }
   /*----------- END NAVBAR (1024) ------------------*/
 
 
@@ -284,17 +368,17 @@ body {
       font-size: 20px;
       color: #333333;
   }
-  .nav-overlay-image {
+  .pay1-overlay-image {
       position: relative;
       width: 100%;
       overflow: hidden;
-      height: 59px;
+      height: 100px;
   }
   .nav-p-t2 {
       padding-top: 20px;
   }
   .nav-bg2{
-      background-color: #094979;
+      background-color: #054372;
       padding: 10px;
       margin-top: 25px;
   }
@@ -308,9 +392,9 @@ body {
   }
   .nav-position-r{
       position: relative;
-      margin-top: -4px;
+      margin-top: -10px;
       margin-left: -13px;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
   }
   .nav-hamburger {
       color: black;
@@ -336,6 +420,10 @@ body {
       color: #fff;
       font-family: "kanitlight";
       transition: all 0.3s;
+  }
+  .nav-padding-1{
+      padding-left: 40px;
+      padding-right: 40px;
   }
   /*----------- END NAVBAR (768) ------------*/
 
@@ -423,40 +511,15 @@ body {
       padding-left: 0px;
       padding-right: 0px;
   }
-  .nav-btn {
-      background-color: #f9b742;
-      width: 123px;
-      height: 50px;
-      font-size: 20px;
-      color: #fff;
-      font-family: "kanitlight";
-      transition: all 0.3s;
-  }
-  .nav-btn:hover {
-      background-color: #5DADE2;
-      width: 123px;
-      height: 50px;
-      font-size: 20px;
-      color: #fff;
-      font-family: "kanitlight";
-      transition: all 0.3s;
-  }
-  .nav-hamburger {
-      color: black;
-      background: white;
-      width: 50px;
-      height: 50px;
-      font-size: 25px;
-  }
   .nav-bg {
       background-image: url(../../assets/images/logo/Nav Payong.png);
       background-size: cover;
       height: 172px;
   }
   .nav-bg2 {
-      background-color: #094979;
+      background-color: #054372;
       padding: 10px;
-      margin-top: 24px;
+      margin-top: 33px;
   }
   .nav-p-t2 {
       padding-top: 22px;
@@ -468,9 +531,13 @@ body {
   }
   .nav-position-r{
       position: relative;
-      margin-top: -4px;
+      margin-top: -9px;
       margin-left: -5px;
-      margin-bottom: 17px;
+      margin-bottom: 11px;
+  }
+  .nav-padding-1 {
+      padding-left: 20px;
+      padding-right: 20px;
   }
   /*----------- END NAVBAR (414) ---------------*/
 
@@ -560,8 +627,24 @@ body {
       background-size: cover;
       height: 153px;
   }
+  .nav-bg2 {
+      background-color: #054372;
+      padding: 10px;
+      margin-top: 23px;
+  }
   .nav-p-t2 {
       padding-top: 10px;
+  }
+  .nav-position-r {
+      position: relative;
+      margin-top: 0px;
+      margin-left: -5px;
+      margin-bottom: 12px;
+  }
+  .nav-position-a {
+      position: absolute;
+      margin-top: -16px;
+      margin-left: -3px;
   }
   /*----------- END NAVBAR (375) ------------*/
   .footer-font {
@@ -674,6 +757,10 @@ body {
       font-family: "kanitlight";
       transition: all 0.3s;
   }
+  .nav-padding-1 {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
   /*----------- END NAVBAR (320) ------------*/
 
   /*--------- FOOTER (320) ------------*/
@@ -688,8 +775,7 @@ body {
   ----------  PAY-1 320 --------------
   ---------------------------------------*/
   .pay1-font {
-      font-size: 13px;
-      color: #333333;
+      font-size: 13px;dsaf
       font-family: "kanitmedium";
   }
   .pay1-font2 {
