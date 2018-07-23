@@ -81,7 +81,7 @@ body {
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 68px;
+    height: 88px;
 }
 .nav-image-full{
     position: absolute;
@@ -130,6 +130,24 @@ body {
     height: 50px;
     font-size: 30px;
 }
+.z-index{
+    z-index: 1;
+}
+.nav-padding-1{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.nav-position-a{
+    position: absolute;
+    margin-top: -29px;
+    margin-left: -6px;
+}
+.nav-position-r{
+    position: relative;
+    margin-top: -8px;
+    margin-left: -14px;
+    margin-bottom: 20px;
+}
 /*----------- END NAVBAR 1 --------------*/
 
 
@@ -147,18 +165,148 @@ body {
 
 
 /*-----------------------------------
--------------- HOME -----------------
+-------------- PAY-1 -----------------
 -------------------------------------*/
+.pay1-font{
+    font-size: 25px;
+    color: #333333;
+    font-family: "kanitmedium";
+}
+.pay1-font2{
+    font-size: 25px;
+    color: #333333;
+    font-family: "kanitlight";
+}
+.pay1-p-t{
+    padding-top: 50px;
+}
+.pay1-p-t2{
+    padding-top: 80px;
+}
+.pay1-p-l{
+    padding-left: 40px;
+}
+.pay1-overlay-image{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 155px;
+}
+.pay1-image-full{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pay1-m-l{
+    margin-left: 50px;
+}
+/*-------------------------------------
+------------- END PAY-1 ----------------
+---------------------------------------*/
 
 /*-------------------------------------
-------------- END HOME ----------------
+------------- PAY-CONFIRM --------------
+---------------------------------------*/
+.paycon-m-t{
+    margin-top: 50px;
+}
+.paycon-m-t2{
+    margin-top: 30px;
+}
+.paycon-m-t3{
+    margin-top: 30px;
+}
+.paycon-m-t4{
+    margin-top: 80px;
+}
+.paycon-font{
+    font-size: 20px;
+    color: #333333;
+    transition: all 0.3s;
+}
+.paycon-font:hover{
+    font-size: 20px;
+    color: #3498db;
+    transition: all 0.3s;
+}
+.paycon-font2{
+    font-size: 18px;
+    color: #333333;
+}
+.paycon-font3{
+    font-size: 18px;
+    color: #333333;
+    font-family: "kanitlight";
+}
+.paycon-font4{
+    font-size: 16px;
+    color: #415f89;
+}
+.paycon-overlay-image{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 476px;
+}
+.paycon-image-full{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid #e9eae9;
+}
+.paycon-btn1{
+    background-color: #1e8cb6;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    transition: all 0.3s;
+    font-family: "kanitlight";
+}
+.paycon-btn1:hover{
+    background-color: #fff;
+    border: 2px solid  #1e8cb6;
+    color:  #1e8cb6;
+    width: 150px;
+    height: 50px;
+    transition: all 0.3s;
+}
+.paycon-btn2{
+    background-color: #1c3c6f;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    transition: all 0.3s;
+    font-family: "kanitlight";
+}
+.paycon-btn2:hover{
+    background-color: #fff;
+    border: 2px solid  #1c3c6f;
+    color:  #1c3c6f;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    transition: all 0.3s;
+}
+/*-------------------------------------
+---------- END PAY-CONFIRM ------------
 ---------------------------------------*/
 
 
 
 @media(max-width: 1366px){
-  /*----------- NAVBAR (1366)------------------*/
-
+  /*----------- NAVBAR (1366)--------------*/
+  .nav-padding-1{
+      padding-left: 100px;
+      padding-right: 100px;
+  }
   /*----------END NAVBAR (1366)------------*/
 
 
@@ -170,8 +318,40 @@ body {
 
 @media(max-width: 1024px){
 
-  /*----------- NAVBAR (1024)------------------*/
-
+  /*----------- NAVBAR (1024)---------------*/
+  .nav-btn {
+      background-color: #f9b742;
+      width: 170px;
+      height: 55px;
+      font-size: 22px;
+      color: #fff;
+      font-family: "kanitlight";
+      transition: all 0.3s;
+  }
+  .nav-btn:hover {
+      background-color: #5DADE2;
+      width: 170px;
+      height: 55px;
+      font-size: 22px;
+      color: #fff;
+      font-family: "kanitlight";
+      transition: all 0.3s;
+  }
+  .nav-padding-1{
+      padding-left:50px;
+      padding-right: 50px;
+  }
+  .nav-position-a {
+      position: absolute;
+      margin-top: -34px;
+      margin-left: -10px;
+  }
+  .nav-position-r {
+      position: relative;
+      margin-top: -12px;
+      margin-left: -13px;
+      margin-bottom: 20px;
+  }
   /*----------- END NAVBAR (1024) ------------------*/
 
 
@@ -181,16 +361,47 @@ body {
 
 
   /*-------------------------------------
-  ------------- HOME 1024 ----------------
+  ------------- PAY-1 1024 ----------------
+  ---------------------------------------*/
+  .pay1-font {
+      font-size: 20px;
+      color: #333333;
+      font-family: "kanitmedium";
+  }
+  .pay1-font2 {
+      font-size: 20px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .pay1-p-l {
+      padding-left: 50px;
+  }
+  .pay1-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 129px;
+  }
+  /*-------------------------------------
+  ----------- END PAY-1 1024 ------------
   ---------------------------------------*/
 
   /*-------------------------------------
-  ----------- END HOME 1024 ------------
+  ----------- PAY-CONFIRM 1024 ----------
   ---------------------------------------*/
-
-
+  .paycon-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 383px;
+  }
+  .paycon-m-t4 {
+      margin-top: 60px;
+  }
+  /*-------------------------------------
+  -------- END PAY-CONFIRM 1024 ---------
+  ---------------------------------------*/
 }
-
 
 
 @media(max-width: 768px){
@@ -210,19 +421,31 @@ body {
       font-size: 20px;
       color: #333333;
   }
-  .nav-overlay-image {
+  .nav-font4 {
+      font-size: 20px;
+      color: white;
+      font-family: "kanitlight";
+      transition: all 0.3s;
+  }
+  .nav-font4:hover {
+      font-size: 20px;
+      color: #85C1E9;
+      font-family: "kanitlight";
+      transition: all 0.3s;
+  }
+  .pay1-overlay-image {
       position: relative;
       width: 100%;
       overflow: hidden;
-      height: 59px;
+      height: 100px;
   }
   .nav-p-t2 {
       padding-top: 20px;
   }
   .nav-bg2{
-      background-color: #094979;
+      background-color: #054372;
       padding: 10px;
-      margin-top: 20px;
+      margin-top: 40px;
   }
   .nav-m-t {
       margin-top: 5px;
@@ -234,9 +457,39 @@ body {
   }
   .nav-position-r{
       position: relative;
-      margin-top: -4px;
+      margin-top: -10px;
       margin-left: -13px;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
+  }
+  .nav-hamburger {
+      color: white;
+      border: 2px solid white;
+      background-color: inherit;
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+  }
+  .nav-btn {
+      background-color: #f9b742;
+      width: 136px;
+      height: 40px;
+      font-size: 19px;
+      color: #fff;
+      font-family: "kanitlight";
+      transition: all 0.3s;
+  }
+  .nav-btn:hover {
+      background-color: #5DADE2;
+      width: 136px;
+      height: 40px;
+      font-size: 19px;
+      color: #fff;
+      font-family: "kanitlight";
+      transition: all 0.3s;
+  }
+  .nav-padding-1{
+      padding-left: 40px;
+      padding-right: 40px;
   }
   /*----------- END NAVBAR (768) ------------*/
 
@@ -246,11 +499,113 @@ body {
   /*----------- END FOOTER (768) -------------*/
 
   /*-------------------------------------
-  ------------- HOME 768 ----------------
+  ------------- PAY-1 768 ----------------
+  ---------------------------------------*/
+  .pay1-font {
+      font-size: 16px;
+      color: #333333;
+      font-family: "kanitmedium";
+  }
+  .pay1-font2 {
+      font-size: 16px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .pay1-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 93px;
+  }
+  .pay1-p-t2 {
+      padding-top: 55px;
+  }
+  .pay1-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 96px;
+  }
+  .pay1-m-l{
+      margin-left: 30px;
+  }
+  /*------------------------------------
+  ---------- END PAY-1 768 --------------
   ---------------------------------------*/
 
-  /*------------------------------------
-  ---------- END HOME 768 --------------
+  /*-------------------------------------
+  ----------- PAY-CONFIRM 768 ----------
+  ---------------------------------------*/
+  .paycon-font {
+      font-size: 18px;
+      color: #333333;
+      transition: all 0.3s;
+  }
+  .paycon-font:hover {
+      font-size: 18px;
+      color: #3498db;
+      transition: all 0.3s;
+  }
+  .paycon-font2 {
+      font-size: 15px;
+      color: #333333;
+  }
+  .paycon-font3 {
+      font-size: 15px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .paycon-font4 {
+      font-size: 13px;
+      color: #415f89;
+  }
+  .paycon-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 283px;
+  }
+  .paycon-m-t4 {
+      margin-top: 60px;
+  }
+  .paycon-btn1 {
+      background-color: #1e8cb6;
+      color: white;
+      width: 130px;
+      height: 40px;
+      font-size: 17px;
+      transition: all 0.3s;
+      font-family: "kanitlight";
+  }
+  .paycon-btn1:hover {
+      background-color: #fff;
+      border: 2px solid #1e8cb6;
+      color: #1e8cb6;
+      width: 130px;
+      height: 40px;
+      font-size: 17px;
+      transition: all 0.3s;
+  }
+  .paycon-btn2 {
+      background-color: #1c3c6f;
+      color: white;
+      width: 165px;
+      height: 40px;
+      font-size: 17px;
+      transition: all 0.3s;
+      font-family: "kanitlight";
+  }
+  .paycon-btn2:hover {
+      background-color: #fff;
+      border: 2px solid #1c3c6f;
+      color: #1c3c6f;
+      font-size: 17px;
+      width: 165px;
+      height: 40px;
+      transition: all 0.3s;
+  }
+  /*-------------------------------------
+  -------- END PAY-CONFIRM 768 ---------
   ---------------------------------------*/
 }
 
@@ -300,35 +655,15 @@ body {
       padding-left: 0px;
       padding-right: 0px;
   }
-  .nav-btn {
-      background-color: #f9b742;
-      width: 123px;
-      height: 50px;
-      font-size: 20px;
-      color: #fff;
-      font-family: "kanitlight";
-      transition: all 0.3s;
-  }
-  .nav-btn:hover {
-      background-color: #5DADE2;
-      width: 123px;
-      height: 50px;
-      font-size: 20px;
-      color: #fff;
-      font-family: "kanitlight";
-      transition: all 0.3s;
-  }
-  .nav-hamburger {
-      color: black;
-      background: white;
-      width: 50px;
-      height: 50px;
-      font-size: 25px;
-  }
   .nav-bg {
       background-image: url(../../assets/images/logo/Nav Payong.png);
       background-size: cover;
       height: 172px;
+  }
+  .nav-bg2 {
+      background-color: #054372;
+      padding: 10px;
+      margin-top: 33px;
   }
   .nav-p-t2 {
       padding-top: 22px;
@@ -340,9 +675,13 @@ body {
   }
   .nav-position-r{
       position: relative;
-      margin-top: -4px;
+      margin-top: -9px;
       margin-left: -5px;
-      margin-bottom: 17px;
+      margin-bottom: 11px;
+  }
+  .nav-padding-1 {
+      padding-left: 20px;
+      padding-right: 20px;
   }
   /*----------- END NAVBAR (414) ---------------*/
 
@@ -356,13 +695,61 @@ body {
 
 
   /*------------------------------------
-  -------------  HOME 414 --------------
+  -------------  PAY-1 414 --------------
   ---------------------------------------*/
-
+  .pay1-font {
+      font-size: 15px;
+      color: #333333;
+      font-family: "kanitmedium";
+  }
+  .pay1-font2 {
+      font-size: 15px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .pay1-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 102px;
+  }
+  .pay1-p-l {
+      padding-left: 18px;
+  }
+  .pay1-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 61px;
+  }
+  .pay1-m-l {
+      margin-left: 20px;
+  }
+  .pay1-p-l {
+      padding-left: 0px;
+  }
+  .pay1-p-t {
+      padding-top: 25px;
+  }
   /*------------------------------------
-  ---------- END HOME 414 --------------
+  ---------- END PAY-1 414 --------------
   ---------------------------------------*/
 
+  /*--------------------------------------
+  ---------- PAY-CONFIRM 414 --------------
+  ---------------------------------------*/
+  .paycon-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 516px;
+  }
+  .paycon-m-t {
+      margin-top: 30px;
+  }
+  /*------------------------------------
+  -------- END PAY-CONFIRM 414 -----------
+  ---------------------------------------*/
 }
 
 
@@ -379,11 +766,12 @@ body {
       height: 37px;
   }
   .nav-hamburger {
-      color: black;
-      background: white;
+      color: white;
+      border: 2px solid white;
+      background-color: inherit;
       width: 40px;
       height: 40px;
-      font-size: 18px;
+      font-size: 15px;
   }
   .nav-btn {
       background-color: #f9b742;
@@ -408,8 +796,24 @@ body {
       background-size: cover;
       height: 153px;
   }
+  .nav-bg2 {
+      background-color: #054372;
+      padding: 10px;
+      margin-top: 23px;
+  }
   .nav-p-t2 {
       padding-top: 10px;
+  }
+  .nav-position-r {
+      position: relative;
+      margin-top: 0px;
+      margin-left: -5px;
+      margin-bottom: 12px;
+  }
+  .nav-position-a {
+      position: absolute;
+      margin-top: -16px;
+      margin-left: -3px;
   }
   /*----------- END NAVBAR (375) ------------*/
   .footer-font {
@@ -422,13 +826,45 @@ body {
   /*----------- END FOOTER (375) ------------*/
 
   /*------------------------------------
-  -------------  HOME 375 --------------
+  ------------- PAY-1 375 --------------
   ---------------------------------------*/
+  .pay1-font {
+      font-size: 15px;
+      color: #333333;
+      font-family: "kanitmedium";
+  }
+  .pay1-font2 {
+      font-size: 13px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  /*------------------------------------
+  ---------- END PAY-1 375 --------------
+  -------------------------------------*/
+
 
   /*------------------------------------
-  ---------- END HOME 375 --------------
-  ---------------------------------------*/
-
+  ---------- PAY-CONFIRM 375 --------------
+  -------------------------------------*/
+  .paycon-font {
+      font-size: 16px;
+      color: #333333;
+      transition: all 0.3s;
+  }
+  .paycon-font:hover {
+      font-size: 16px;
+      color: #3498db;
+      transition: all 0.3s;
+  }
+  .paycon-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 464px;
+  }
+  /*------------------------------------
+  ---------- END PAY-CONFIRM 375 --------------
+  -------------------------------------*/
 
 }
 
@@ -489,11 +925,12 @@ body {
       margin-bottom: 17px;
   }
   .nav-hamburger {
-      color: black;
-      background: white;
+      color: white;
+      border: 2px solid white;
+      background-color: inherit;
       width: 40px;
       height: 35px;
-      font-size: 16px;
+      font-size: 15px;
   }
   .nav-btn {
       background-color: #f9b742;
@@ -513,6 +950,10 @@ body {
       font-family: "kanitlight";
       transition: all 0.3s;
   }
+  .nav-padding-1 {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
   /*----------- END NAVBAR (320) ------------*/
 
   /*--------- FOOTER (320) ------------*/
@@ -524,10 +965,96 @@ body {
   /*--------- END FOOTER (320) ---------*/
 
   /*------------------------------------
-  ----------  HOME 320 --------------
+  ----------  PAY-1 320 --------------
+  ---------------------------------------*/
+  .pay1-font {
+      font-size: 13px;
+      font-family: "kanitmedium";
+  }
+  .pay1-font2 {
+      font-size: 10px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .pay1-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 44px;
+  }
+  /*------------------------------------
+  ---------- END PAY-1 320 --------------
   ---------------------------------------*/
 
+  /*-------------------------------------
+  ---------- PAY-CONFIRM 320 ------------
+  ---------------------------------------*/
+  .paycon-font {
+      font-size: 14px;
+      color: #333333;
+      transition: all 0.3s;
+  }
+  .paycon-font:hover {
+      font-size: 14px;
+      color: #3498db;
+      transition: all 0.3s;
+  }
+  .paycon-font2 {
+      font-size: 13px;
+      color: #333333;
+  }
+  .paycon-font3 {
+      font-size: 13px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .paycon-font4 {
+      font-size: 11px;
+      color: #415f89;
+  }
+  .paycon-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 387px;
+  }
+  .paycon-btn1 {
+      background-color: #1e8cb6;
+      color: white;
+      width: 110px;
+      height: 40px;
+      font-size: 16px;
+      transition: all 0.3s;
+      font-family: "kanitlight";
+  }
+  .paycon-btn1:hover {
+      background-color: #fff;
+      border: 2px solid #1e8cb6;
+      color: #1e8cb6;
+      width: 110px;
+      height: 40px;
+      font-size: 16px;
+      transition: all 0.3s;
+  }
+  .paycon-btn2 {
+      background-color: #1c3c6f;
+      color: white;
+      width: 165px;
+      height: 40px;
+      font-size: 16px;
+      transition: all 0.3s;
+      font-family: "kanitlight";
+  }
+  .paycon-btn2:hover {
+      background-color: #fff;
+      border: 2px solid #1c3c6f;
+      color: #1c3c6f;
+      font-size: 16px;
+      width: 165px;
+      height: 40px;
+      transition: all 0.3s;
+  }
   /*------------------------------------
-  ---------- END HOME 320 --------------
+  -------- END PAY-CONFIRM 320 ------------
   ---------------------------------------*/
 }

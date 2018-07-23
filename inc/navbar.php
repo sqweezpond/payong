@@ -1,7 +1,7 @@
 
 
 <!--- NAVBAR 1 ------------------------------------------------->
-	 	 <div class="container">
+	 	 <div class="nav-padding-1">
 					<div class="row nav-m-t">
 							<div class="col-xl-6 col-lg-7 col-md-9 col-9">
 							   <div class="row">
@@ -35,7 +35,7 @@
 
 <!-- NAVBAR 2 ---------------------------------------------------->
 <div class="nav-bg">
-		<div class="container">
+		<div class="nav-padding-1">
 				<nav class="navbar navbar-expand-lg nav-p-t px-0">
 							<button class="navbar-toggler nav-hamburger" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 									<i class="fa fa-bars" aria-hidden="true"></i>
@@ -43,7 +43,7 @@
 							<div class="col-md-6 col-6 text-right d-block d-lg-none d-md-block px-0">
 									<button type="button" class="btn nav-btn">แจ้งโอนเงิน</button>
 							</div>
-							<div class="col-xl-9 col-lg-9 px-0 pl-2">
+							<div class="col-xl-9 col-lg-9 px-0 z-index">
 							<div class="collapse navbar-collapse nav-bg2" id="navbarNavDropdown">
 									<ul class="navbar-nav">
 											<li class="nav-item active">
