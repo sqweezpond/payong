@@ -13,18 +13,40 @@
 
     <div class="wrapper fadeIn animated">
        <!-- CONTENT -->
-       <div class="container">
-         <div class="row">
-           <div class="col-lg-6">
 
-           </div>
-           <div class="col-lg-6">
 
-           </div>
 
-         </div>
+                 <div class="container">
+                   <div class="row">
+                     <div class="col-lg-6">
+                       <div>
+                         <div class="pay-card mt-4">
+                            <label class="pay-bg-top text-center">แจ้งการโอนเงิน</label>
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-6">
+                       <div>
+                         <div class="pay-card mt-4">
+                            <label class="pay-bg-top text-center">รายละเอียดการขอรับบริการ</label>
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                       </div>
 
-       </div>
+                     </div>
+
+                   </div>
+
+                 </div>
 
 
 
