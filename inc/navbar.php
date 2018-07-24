@@ -41,16 +41,18 @@
 									<i class="fa fa-bars" aria-hidden="true"></i>
 							</button>
 							<div class="col-md-6 col-6 text-right d-block d-lg-none d-md-block px-0">
+								<a href="paydetails.php">
 									<button type="button" class="btn nav-btn">แจ้งโอนเงิน</button>
+								</a>
 							</div>
 							<div class="col-xl-9 col-lg-9 px-0 z-index">
 							<div class="collapse navbar-collapse nav-bg2" id="navbarNavDropdown">
 									<ul class="navbar-nav">
 											<li class="nav-item active">
-													<a class="nav-link nav-font4" href="#">หน้าแรก</a>
+													<a class="nav-link nav-font4" href="index.php">หน้าแรก</a>
 											</li>
 											<li class="nav-item">
-													<a class="nav-link nav-font4" href="#">ดวงชะตา</a>
+													<a class="nav-link nav-font4" href="pay-1.php">ดวงชะตา</a>
 											</li>
 											<li class="nav-item">
 													<a class="nav-link nav-font4" href="#">ฤกษ์คนไทยในประเทศ</a>
@@ -62,7 +64,9 @@
 							</div>
 						</div>
 						<div class="col-xl-3 col-lg-3 text-right d-none d-lg-block d-md-none px-0">
-								<button type="button" class="btn nav-btn">แจ้งโอนเงิน</button>
+								<a href="paydetails.php">
+									<button type="button" class="btn nav-btn">แจ้งโอนเงิน</button>
+								</a>
 						</div>
 				</nav>
 		</div>

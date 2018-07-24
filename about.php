@@ -18,7 +18,7 @@
 <!------------------------------ img ---------------------------->
 
 
-            <div class="container pb-5">
+            <div class="container">
                 <div class="row">
                   <div class="col-lg-12">
                       <div class="pro_frame-crad">

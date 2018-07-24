@@ -81,7 +81,9 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-12 text-center">
-                  <button type="button" class="btn btn-secondary">เกี่ยวกับอาจารย์พยงค์</button>
+                  <a href="about.php">
+                    <button type="button" class="btn btn-secondary">เกี่ยวกับอาจารย์พยงค์</button>
+                  </a>
                 </div>
               </div>
             </div>

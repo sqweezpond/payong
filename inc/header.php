@@ -20,11 +20,6 @@
 
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
-    <!-- Carousel -->
-    <link rel="stylesheet" href="assets/vandor/OwlCarousel/dist/assets/owl.carousel.min.css">
-
-    <link rel="stylesheet" href="assets/vandor/OwlCarousel/dist/assets/owl.theme.default.min.css">
-
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
