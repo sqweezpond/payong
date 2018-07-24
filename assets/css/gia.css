@@ -125,6 +125,34 @@
     border-radius: .25rem;
     width: 95%;
 }
+.btn-primary-pay {
+    color: #fff;
+    background-color: #0a3f6b;
+    border-color: #0a3f6b;
+}
+.btn-primary-pay:hover {
+  color: #fff;
+  background-color: #0a3f6bcf;
+  border-color: #0a3f6b;
+}
+.pay-btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 10px 30px 10px 30px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    cursor: pointer;
+}
 
 
 
@@ -175,6 +203,26 @@
 }
 /*-------------index 1024 end------------*/
 
+/*--------------pay 1024-----------------*/
+.pay-card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100%;
+}
+/*-------------pay 1024 end--------------*/
+
 }
 @media(max-width: 768px){
 
@@ -200,6 +248,31 @@
     height: 460px;
 }
   /*-----------about 768 end--------------*/
+
+  /*--------------pay 1024-----------------*/
+  .pay-card {
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+      width: 100%;
+  }
+  /*-------------pay 1024 end--------------*/
+
+
+
+
+
 }
 @media(max-width: 414px){
 
