@@ -11,13 +11,13 @@
     <?php include_once('inc/navbar.php'); ?>
   <!-- END NAVBAR -->
 
-    <div class="wrapper fadeIn animated">
+    <div class="wrapper">
        <!-- CONTENT -->
 
 
 
          <!-- bg-top -->
-          <div style=" width: 100%;padding: 8px;background: url('assets/images/OneDrive-2018-07-07/IMG_4272.JPG'); background-position: right; background-size: cover; " >
+          <div class="bg-1">
 
 
           <!-- end bg-top -->
@@ -79,9 +79,9 @@
           <!------------- button ------------>
 
             <div class="container">
-              <div class="row">
-                <div class="col-lg-12 text-center">
-                  <a href="about.php">
+              <div class="row ">
+                <div class="col-12 text-center mb-4">
+                  <a href="#">
                     <button type="button" class="btn btn-secondary">เกี่ยวกับอาจารย์พยงค์</button>
                   </a>
                 </div>

@@ -1,6 +1,39 @@
 
 
 
+/*-------bg--------*/
+.bg-1{
+    background-image: url(../../assets/images/OneDrive-2018-07-07/IMG_4272.JPG);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #30777b;
+    background-blend-mode: multiply;
+}
+/*-------bg--------*/
+
+/*---------paydetails---------*/
+.pay-form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+
+/*---------paydetails end---------*/
+
 /*-----index-------*/
 
 .pro_frame-crad{
@@ -55,11 +88,16 @@
 
 }
 .btn-secondary {
-    color: #fff;
-    background-color: #3b4146;
-    border-color: #6c757d;
-    padding: 15px 20px 15px 20px;
-    margin-top: -120px;
+      background-color: #031f25;
+      width: 350px;
+      height: 70px;
+      border-radius: 0px;
+      color: white;
+      border: 5px ;
+      transition: all 0.3s;
+      box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+      font-family: "kanitlight";
+      font-size: 30px;
 }
 
 /*-----index end---*/
@@ -92,6 +130,8 @@
 
 /*-----paydetails end-----*/
 
+/*------*
+
 
 
 @media(max-width: 1366px){
@@ -117,6 +157,24 @@
 }
 /*-----------about 1024 end--------------*/
 
+/*------------index 1024-----------------*/
+.pro_card-img-top-1 {
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 15px 15px 100px 15px;
+}
+
+.pro_frame-crad-1 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 273px;
+}
+/*-------------index 1024 end------------*/
+
 }
 @media(max-width: 768px){
 
@@ -124,14 +182,21 @@
   .in-dex-card{
     width: 100%;
   }
+  .pro_card-img-top-1 {
+    position: absolute;
+    top: 75%;
+}
+.pro_frame-crad-1 {
+    height: 300px;
+}
+.btn-secondary{
+    width: 100%;
+}
 
   /*-----------index 768 end---------------*/
 
   /*-----------about 768------------------*/
   .pro_frame-crad {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
     height: 460px;
 }
   /*-----------about 768 end--------------*/
@@ -140,15 +205,47 @@
 
   /*------about 414--------*/
   .pro_frame-crad {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
     height: 256px;
 }
 /*--------about end 414-------*/
+
+/*--------index 414-----------*/
+.pro_card-img-top-1 {
+    position: absolute;
+    top: 72%;
+}
+.pro_frame-crad-1 {
+    height: 330px;
+}
+/*--------index 414 end-------*/
+
 }
 
 @media(max-width: 375px){
+
+/*-------index 375--------------*/
+.pro_frame-crad-1 {
+    height: 300px;
+}
+.pro_card-img-top-1 {
+    top: 74%;
+}
+/*-------index 375 end-----------*/
+
 }
 @media(max-width: 320px){
+
+  /*--------index 320------------*/
+  .pro_card-img-top-1 {
+    top: 78%;
+
+}
+.pro_frame-crad-1 {
+    height: 260px;
+}
+.btn-secondary {
+    width: 100%;
+
+}
+/*-------------index 320 end--------*/
 }
