@@ -319,7 +319,7 @@
                                   </div>
                                 </form>
                               </div>
-                              <div class="col-lg-12 text-right">
+                              <div class="col-lg-12 text-lg-right text-center">
                                 <a href="#">
                                   <button type="button" class="pay-btn btn-primary-pay">Summit</button>
                                 </a>

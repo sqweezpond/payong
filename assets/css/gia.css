@@ -43,12 +43,51 @@
     height: 740px;
 
 }
-.pro_card-img-top {
+/*.pro_card-img-top {
     position:absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
     width: 100%;
+}
+
+.card-img-top {
+    position: absolute;
+    transform: scale(1.5);
+    transition: all 0.5s;
+}
+.card-img-top:hover {
+  position: absolute;
+  transform: scale(1.7);
+  transition: all 0.5s;
+  opacity: 0.9;
+}*/
+
+.img-frame{
+  position:relative;
+  overflow: hidden;
+  width: 100%;
+  height: 215px;
+
+
+}
+
+.card-img-top{
+  width: 100%;
+  height: auto;
+  position: absolute;
+    transition:  all 1s;
+
+}
+
+
+.card-img-top:hover{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    transform: scale(1.5);
+    opacity: 0.9;
+
 }
 
 .pro_frame-crad-1{
@@ -86,10 +125,11 @@
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 2px solid rgba(0, 0, 0, 0);
+    border: 4px solid rgba(0, 0, 0, 0);
     border-radius: 0px;
     border-top-color: #FFC107;
     width: 103%;
+    padding: 15px 15px 15px 15px;
 }
 .pro_text_topics{
 	font-size: 20px;
@@ -147,14 +187,25 @@
     width: 95%;
 }
 .btn-primary-pay {
-    color: #fff;
-    background-color: #0a3f6b;
-    border-color: #0a3f6b;
+    background-color: #1e3d70;
+    color: white;
+    width: 200px;
+    height: 55px;
+    font-size: 20px;
+    font-family: "kanitlight";
+    margin-top: 10px;
+    transition: all 0.3s;
 }
 .btn-primary-pay:hover {
-  color: #fff;
-  background-color: #0a3f6bcf;
-  border-color: #0a3f6b;
+  background-color: #fff;
+  border: 2px solid #1e3d70;
+  color: #1e3d70;
+  width: 200px;
+  height: 55px;
+  font-size: 20px;
+  font-family: "kanitlight";
+  margin-top: 10px;
+  transition: all 0.3s;
 }
 .pay-btn {
     display: inline-block;
@@ -168,7 +219,6 @@
     user-select: none;
     border: 1px solid transparent;
     padding: 10px 30px 10px 30px;
-    font-size: 1rem;
     line-height: 1.5;
     border-radius: 0.25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
