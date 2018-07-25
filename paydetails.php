@@ -41,15 +41,15 @@
                                   <form>
                                     <div class="form-group">
                                       <div class="row">
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 ">
                                           <label for="exampleFormControlFile1">โอนเข้าธนาคาร</label></label>
                                           <input type="email" class="pay-form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ไทยพาณิชย์">
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 ">
                                           <label for="exampleFormControlFile1">จำนวนเงินที่โอน</label></label>
                                           <input type="email" class="pay-form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 ">
                                           <label for="exampleFormControlFile1">หลักฐาน</label>
                                           <input type="file" class="form-control-file" id="exampleFormControlFile1">
                                         </div>
@@ -64,7 +64,7 @@
                                           <div class="col-lg-8">
                                             <label for="exampleFormControlFile1">วันที่ทำรายการ</label>
                                             <div class="row">
-                                              <div class="col-lg-4">
+                                              <div class="col-lg-4 ">
                                                 <label for="exampleFormControlFile1">Day</label>
                                                 <select class="pay-form-control">
                                                   <option>1</option>
@@ -73,14 +73,14 @@
                                                   <option>4</option>
                                                 </select>
                                               </div>
-                                              <div class="col-lg-4">
+                                              <div class="col-lg-4 ">
                                                 <label for="exampleFormControlFile1">Month</label>
                                                 <select class="pay-form-control">
                                                   <option>1</option>
                                                   <option>2</option>
                                                 </select>
                                               </div>
-                                              <div class="col-lg-4">
+                                              <div class="col-lg-4 ">
                                                 <label for="exampleFormControlFile1">Year</label>
                                                 <select class="pay-form-control">
                                                   <option>1995</option>
@@ -92,14 +92,14 @@
                                           <div class="col-lg-4">
                                             <label for="exampleFormControlFile1">เวลาที่ทำรายการ</label>
                                             <div class="row">
-                                              <div class="col-lg-6">
+                                              <div class="col-lg-6 px-lg-2">
                                                 <label for="exampleFormControlFile1">Hour</label>
                                                 <select class="pay-form-control">
                                                   <option>12</option>
                                                   <option>11</option>
                                                 </select>
                                               </div>
-                                              <div class="col-lg-6">
+                                              <div class="col-lg-6 px-lg-2">
                                                 <label for="exampleFormControlFile1">Minute</label>
                                                 <select class="pay-form-control">
                                                   <option>00</option>
@@ -276,14 +276,14 @@
                                       <div class="col-lg-4">
                                         <label for="exampleFormControlFile1">เวลาเกิด</label>
                                         <div class="row">
-                                          <div class="col-lg-6">
+                                          <div class="col-lg-6 px-lg-2">
                                             <label for="exampleFormControlFile1">Hour</label>
                                             <select class="pay-form-control">
                                               <option>12</option>
                                               <option>11</option>
                                             </select>
                                           </div>
-                                          <div class="col-lg-6">
+                                          <div class="col-lg-6 px-lg-2">
                                             <label for="exampleFormControlFile1">Minute</label>
                                             <select class="pay-form-control">
                                               <option>00</option>
