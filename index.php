@@ -76,19 +76,19 @@
               </div>
           </div>
 
-          <!------------- button ------------>
+          <!-- button ------------>
 
             <div class="container">
               <div class="row ">
                 <div class="col-12 text-center mb-4">
-                  <a href="#">
+                  <a href="about.php">
                     <button type="button" class="btn btn-secondary">เกี่ยวกับอาจารย์พยงค์</button>
                   </a>
                 </div>
               </div>
             </div>
 
-          <!------------- button end------------>
+          <!-- button end------------>
         </div>
 
 
