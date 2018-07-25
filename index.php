@@ -19,7 +19,7 @@
               <div class="row ">
                 <div class="col-lg-4  col-md-6 col-sm-12 col-12 mt-4">
                   <div class=" in-dex-card" >
-                    <div class="card-body">
+                    <div class="card-body px-0 pt-1">
                       <p class="card-text pro_text_topics">บริการโหราศาสตร์</p>
                     </div>
                     <div class="img-frame">
@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12  mt-4">
                   <div class=" in-dex-card " >
-                    <div class="card-body">
+                    <div class="card-body px-0 pt-1">
                       <p class="card-text pro_text_topics">ฤกษ์คลอดบุตร</p>
                     </div>
                     <div class="img-frame">
@@ -43,7 +43,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12  mt-4">
                   <div class=" in-dex-card " >
-                    <div class="card-body">
+                    <div class="card-body px-0 pt-1">
                       <p class="card-text pro_text_topics">ฤกษ์แต่งงาน</p>
                     </div>
                     <div class="img-frame">
@@ -55,7 +55,7 @@
                 </div>
                 <div class="col-lg-4  col-md-6 col-sm-12 col-12 mt-lg-3 mt-4">
                   <div class=" in-dex-card " >
-                    <div class="card-body">
+                    <div class="card-body px-0 pt-1">
                       <p class="card-text pro_text_topics">ฤกษ์ขึ้นบ้านใหม่</p>
                     </div>
                     <div class="img-frame">
@@ -67,7 +67,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12  mt-lg-3 mt-4">
                     <div class=" in-dex-card " >
-                      <div class="card-body">
+                      <div class="card-body px-0 pt-1">
                         <p class="card-text pro_text_topics">ฤกษ์รับรถยนต์</p>
                       </div>
                       <div class="img-frame">
@@ -79,7 +79,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12  mt-lg-3 mt-4">
                   <div class=" in-dex-card " >
-                    <div class="card-body">
+                    <div class="card-body px-0 pt-1">
                       <p class="card-text pro_text_topics">ฤกษ์เปิดกิจการ</p>
                     </div>
                     <div class="img-frame">

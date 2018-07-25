@@ -63,7 +63,8 @@ body {
 .nav-font3{
     font-size: 25px;
     color: #333333;
-    font-family: 'cs_prakasfdbold';
+    font-weight: 600;
+    font-family: "cs-cs_prakasregular",sans-serif;
 }
 .nav-font4{
     font-size: 22px;

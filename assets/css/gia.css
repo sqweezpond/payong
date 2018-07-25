@@ -15,18 +15,131 @@
 /*-------bg--------*/
 
 /*---------paydetails---------*/
+.custom-file-upload {
+  border: 1px solid #545050;
+/* display: inline-block; */
+/* padding: 0px 33px; */
+  cursor: pointer;
+  padding: 11px;
+  height: 45px;
+  background-color: #6d6d6d;
+  color: #ffffff;
+}
+input[type="file"] {
+    display: none;
+}
+
+.pay-bg-top{
+  background-color: #083d6a;
+  padding: 10px 0px 10px 0px;
+  color: white;
+  font-size: 20px;
+}
+.pay-card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100%;
+}
+.btn-primary-pay {
+    background-color: #1e3d70;
+    color: white;
+    width: 200px;
+    height: 55px;
+    font-size: 20px;
+
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+.btn-primary-pay:hover {
+  background-color: #fff;
+  border: 2px solid #1e3d70;
+  color: #1e3d70;
+  width: 200px;
+  height: 55px;
+  font-size: 20px;
+
+  margin-top: 10px;
+  transition: all 0.3s;
+}
+.pay-btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 10px 30px 10px 30px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    cursor: pointer;
+}
+.pay-icon {
+    font-size: 25px;
+    color: #76c764;
+    padding-top: 40px;
+}
+.pay-confirm-font{
+  font-size: 18px;
+  font-weight: 600;
+}
 .pay-form-control {
     display: block;
     width: 100%;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 300;
+    background-size: 20px;
+    -webkit-appearance: none!important;
+    padding: 5px 12px!important;
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #000000;
+    border: 1px solid #1e3d70;
     border-radius: 0px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.paycon-selected {
+    border: 1px solid #1e3d70;
+    border-radius: 0px;
+    background: #fff url(../../assets/images/logo/down.png) no-repeat right 15px center;
+    background-size: 13px;
+    -webkit-appearance: none!important;
+    padding: 5px 12px!important;
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+.paycon-selected-1 {
+    border: 1px solid #1e3d70;
+    border-radius: 0px;
+    background: #fff url(../../assets/images/logo/down.png) no-repeat right 15px center;
+    background-size: 13px;
+    -webkit-appearance: none!important;
+    padding: 5px 12px!important;
+    width: 100%;
+    height: 45px;
+    font-size: 13px;
+    font-weight: 300;
+
 }
 
 
@@ -43,7 +156,7 @@
     height: 740px;
 
 }
-/*.pro_card-img-top {
+.pro_card-img-top {
     position:absolute;
     top:50%;
     left:50%;
@@ -51,41 +164,31 @@
     width: 100%;
 }
 
-.card-img-top {
-    position: absolute;
-    transform: scale(1.5);
-    transition: all 0.5s;
-}
-.card-img-top:hover {
-  position: absolute;
-  transform: scale(1.7);
-  transition: all 0.5s;
-  opacity: 0.9;
-}*/
 
 .img-frame{
   position:relative;
   overflow: hidden;
   width: 100%;
-  height: 215px;
+  height: 290px;
 
 
 }
 
 .card-img-top{
   width: 100%;
-  height: auto;
+  height: 290px;
   position: absolute;
-    transition:  all 1s;
+    transition:  all 0.9s;
+    border-radius: 0px;
 
 }
 
 
 .card-img-top:hover{
     width: 100%;
-    height: auto;
+    height: 290px;
     position: absolute;
-    transform: scale(1.5);
+    transform: scale(1.2);
     opacity: 0.9;
 
 }
@@ -99,21 +202,14 @@
 }
 .pro_card-img-top-1 {
     position:absolute;
-    top:72%;
+    top:50%;
     left:50%;
     transform: translate(-50%, -50%);
     width: 100%;
-		padding: 15px 15px 100px 15px;
+
 }
 
-.pro_card-img-top-1 :hover {
-    position:absolute;
-    top:72%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-		padding: 15px 15px 100px 15px;
-}
+
 
 .in-dex-card {
     position: relative;
@@ -132,7 +228,7 @@
     padding: 15px 15px 15px 15px;
 }
 .pro_text_topics{
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 600;
 
 }
@@ -163,73 +259,9 @@
 
 /*-----index end---*/
 
-/*-----paydetails---------*/
-.pay-bg-top{
-  background-color: #083d6a;
-  padding: 10px 0px 10px 0px;
-  color: white;
-}
-.pay-card {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
-    width: 95%;
-}
-.btn-primary-pay {
-    background-color: #1e3d70;
-    color: white;
-    width: 200px;
-    height: 55px;
-    font-size: 20px;
-    font-family: "kanitlight";
-    margin-top: 10px;
-    transition: all 0.3s;
-}
-.btn-primary-pay:hover {
-  background-color: #fff;
-  border: 2px solid #1e3d70;
-  color: #1e3d70;
-  width: 200px;
-  height: 55px;
-  font-size: 20px;
-  font-family: "kanitlight";
-  margin-top: 10px;
-  transition: all 0.3s;
-}
-.pay-btn {
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: 10px 30px 10px 30px;
-    line-height: 1.5;
-    border-radius: 0.25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    cursor: pointer;
-}
 
 
 
-/*-----paydetails end-----*/
-
-/*------*
 
 
 
@@ -274,7 +306,7 @@
 }
 .btn-secondary {
   background-color: #031f25 !important;
-  width: 100%;
+  width: 300px;
   height: 70px;
   border-radius: 0px;
   color: white;
@@ -286,7 +318,7 @@
 }
 .btn-secondary:hover {
   background-color: #1c3c6f !important;
-  width: 100%;
+  width: 300px;
   height: 70px;
   border-radius: 0px;
   color: white;
@@ -295,6 +327,12 @@
   box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
   font-family: "kanitlight";
   font-size: 30px;
+}
+.img-frame {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 230px;
 }
 
 /*-------------index 1024 end------------*/
@@ -316,6 +354,10 @@
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     width: 100%;
+}
+.pay-confirm-font {
+    font-size: 16px;
+    font-weight: 600;
 }
 /*-------------pay 1024 end--------------*/
 
@@ -408,11 +450,24 @@
 .pro_frame-crad-1 {
     height: 330px;
 }
+.img-frame {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 280px;
+}
 /*--------index 414 end-------*/
 
 }
 
 @media(max-width: 375px){
+
+  /*------------about 375----------*/
+
+  .pro_frame-crad {
+    height: 230px;
+}
+  /*------------about 375 end------*/
 
 /*-------index 375--------------*/
 .pro_frame-crad-1 {
@@ -421,10 +476,22 @@
 .pro_card-img-top-1 {
     top: 74%;
 }
+.img-frame {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 260px;
+}
 /*-------index 375 end-----------*/
 
 }
 @media(max-width: 320px){
+
+  /*----------about 320 ------------*/
+  .pro_frame-crad {
+    height: 190px;
+}
+  /*----------about 320 end----------*/
 
   /*--------index 320------------*/
   .pro_card-img-top-1 {
@@ -434,6 +501,11 @@
 .pro_frame-crad-1 {
     height: 260px;
 }
-
+.img-frame {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 220px;
+}
 /*-------------index 320 end--------*/
 }
