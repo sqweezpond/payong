@@ -34,7 +34,7 @@
                       <div class="paycon-font3">ไทยพาณิชย์</div>
                   </div>
                   <div class="col-xl-6 col-lg-6 col-md-6 col-6">
-                      <div class="paycon-font2">วันที่ทำรายาการ</div>
+                      <div class="paycon-font2">วันที่ทำรายการ</div>
                       <div class="paycon-font3">7 / 7 / 2561 10:30:25</div>
                   </div>
                 </div>

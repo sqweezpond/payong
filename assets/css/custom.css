@@ -63,7 +63,7 @@ body {
 .nav-font3{
     font-size: 25px;
     color: #333333;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "cs-cs_prakasregular",sans-serif;
 }
 .nav-font4{
@@ -181,7 +181,7 @@ body {
     font-size: 25px;
     color: #333333;
     font-family: "cs-cs_prakasregular",sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 .pay1-font2{
     font-size: 22px;
@@ -236,27 +236,27 @@ body {
     margin-top: 80px;
 }
 .paycon-font{
-    font-size: 20px;
+    font-size: 22px;
     color: #333333;
     transition: all 0.3s;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "cs-cs_prakasregular",sans-serif;
 }
 .paycon-font:hover{
-    font-size: 20px;
+    font-size: 22px;
     color: #3498db;
     transition: all 0.3s;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "cs-cs_prakasregular",sans-serif;
 }
 .paycon-font2{
-    font-size: 18px;
+    font-size: 20px;
     color: #333333;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "cs-cs_prakasregular",sans-serif;
 }
 .paycon-font3{
-    font-size: 18px;
+    font-size: 19px;
     color: #333333;
     font-weight: 300;
     font-family: "cs-cs_prakasregular",sans-serif;
