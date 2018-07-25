@@ -52,7 +52,7 @@
 													<a class="nav-link nav-font4" href="index.php">หน้าแรก</a>
 											</li>
 											<li class="nav-item">
-													<a class="nav-link nav-font4" href="pay-1.php">ดวงชะตา</a>
+													<a class="nav-link nav-font4" href="#">ดวงชะตา</a>
 											</li>
 											<li class="nav-item">
 													<a class="nav-link nav-font4" href="#">ฤกษ์คนไทยในประเทศ</a>
