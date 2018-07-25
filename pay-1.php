@@ -46,7 +46,7 @@
                 <div class="col-xl-8 col-lg-8 col-md-8 col-7 pay1-p-l">
                     <div class="col-12">
                       <div class="pay1-font">ชำระเงินผ่านธนาคาร</div>
-                      <div class="pay1-font2 mt-2">บัญชีธนาคารไทยพาณิชย์ สาขาจรัญสนิทวงศ์ ซอย 48</div>
+                      <div class="pay1-font2 mt-3">บัญชีธนาคารไทยพาณิชย์ สาขาจรัญสนิทวงศ์ ซอย 48</div>
                       <div class="pay1-font2 mt-2">เลขบัญชี 1212204399</div>
                       <div class="pay1-font2 mt-2">ชื่อบัญชี นางสุภัค บูรณสัมปทานนท์</div>
                     </div>
