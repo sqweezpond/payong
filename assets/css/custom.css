@@ -31,7 +31,7 @@
     font-style: normal;
 }
 
-body,label,p,h1,h2,h3,h4,h5 {
+body, {
     font-family: 'cs_prakasfdregular';
 }
 
@@ -45,7 +45,7 @@ body,label,p,h1,h2,h3,h4,h5 {
     font-size: 30px;
     color: #333333;
     transition: all 0.3s;
-    my-lg-2 my-md-0 my-2
+    font-family: 'cs_prakasfdbold';
 }
 .nav-font1:hover{
     font-size: 30px;

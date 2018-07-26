@@ -71,7 +71,7 @@
                                             <label  class="pay-confirm-font my-lg-2 my-md-0 my-2">วันที่ทำรายการ</label>
                                             <div class="row">
                                               <div class="col-lg-4 col-md-4 col-12">
-                                                <label  class="pay-confirm-font my-lg-0 my-md-0 my-2">Day</label>
+                                                <label  class="pay-en-text my-lg-0 my-md-0 my-2">Day</label>
                                                 <select class="paycon-selected-1">
                                                   <option>1</option>
                                                   <option>2</option>
@@ -80,14 +80,14 @@
                                                 </select>
                                               </div>
                                               <div class="col-lg-4 col-md-4 col-12">
-                                                <label  class="pay-confirm-font my-lg-0 my-md-0 my-2">Month</label>
+                                                <label  class="pay-en-text my-lg-0 my-md-0 my-2">Month</label>
                                                 <select class="paycon-selected-1">
                                                   <option>1</option>
                                                   <option>2</option>
                                                 </select>
                                               </div>
                                               <div class="col-lg-4 col-md-4 col-12">
-                                                <label  class="pay-confirm-font my-lg-0 my-md-0 my-2">Year</label>
+                                                <label  class="pay-en-text my-lg-0 my-md-0 my-2">Year</label>
                                                 <select class="paycon-selected-1">
                                                   <option>1995</option>
                                                   <option>1996</option>
@@ -99,14 +99,14 @@
                                             <label  class="pay-confirm-font my-lg-2 my-md-0 my-2">เวลาที่ทำรายการ</label>
                                             <div class="row">
                                               <div class="col-lg-6 col-md-6 col-12 px-lg-2">
-                                                <label  class="pay-confirm-font my-lg-0 my-md-0 my-2">Hour</label>
+                                                <label  class="pay-en-text my-lg-0 my-md-0 my-2">Hour</label>
                                                 <select class="paycon-selected-1">
                                                   <option>12</option>
                                                   <option>11</option>
                                                 </select>
                                               </div>
                                               <div class="col-lg-6 col-md-6 col-12 px-lg-2">
-                                                <label  class="pay-confirm-font my-lg-0 my-md-0 my-2">Minute</label>
+                                                <label  class="pay-en-text my-lg-0 my-md-0 my-2">Minute</label>
                                                 <select class="paycon-selected-1">
                                                   <option>00</option>
                                                   <option>01</option>
@@ -260,7 +260,7 @@
                                         <label  class="pay-confirm-font my-3">วันเดือนปีเกิด</label>
                                         <div class="row">
                                           <div class="col-lg-4 col-md-4 col-12 ">
-                                            <label  class="pay-confirm-font my-lg-0 my-md-0 my-2">Day</label>
+                                            <label  class="pay-en-text my-lg-0 my-md-0 my-2">Day</label>
                                             <select class="paycon-selected-1">
                                               <option>1</option>
                                               <option>2</option>
@@ -269,14 +269,14 @@
                                             </select>
                                           </div>
                                           <div class="col-lg-4 col-md-4 col-12">
-                                            <label  class="pay-confirm-font my-lg-0 my-md-0 my-2">Month</label>
+                                            <label  class="pay-en-text my-lg-0 my-md-0 my-2">Month</label>
                                             <select class="paycon-selected-1">
                                               <option>1</option>
                                               <option>2</option>
                                             </select>
                                           </div>
                                           <div class="col-lg-4 col-md-4 col-12">
-                                            <label  class="pay-confirm-font my-lg-0 my-md-0 my-2">Year</label>
+                                            <label  class="pay-en-text my-lg-0 my-md-0 my-2">Year</label>
                                             <select class="paycon-selected-1">
                                               <option>1995</option>
                                               <option>1996</option>
@@ -288,14 +288,14 @@
                                         <label class="pay-confirm-font my-3">เวลาเกิด</label>
                                         <div class="row">
                                           <div class="col-lg-6 col-md-6 col-12 px-lg-2">
-                                            <label class="pay-confirm-font my-lg-0 my-md-0 my-2">Hour</label>
+                                            <label class="pay-en-text my-lg-0 my-md-0 my-2">Hour</label>
                                             <select class="paycon-selected-1">
                                               <option>12</option>
                                               <option>11</option>
                                             </select>
                                           </div>
                                           <div class="col-lg-6 col-md-6 col-12 px-lg-2">
-                                            <label class="pay-confirm-font my-lg-0 my-md-0 my-2" >Minute</label>
+                                            <label class="pay-en-text my-lg-0 my-md-0 my-2" >Minute</label>
                                             <select class="paycon-selected-1">
                                               <option>00</option>
                                               <option>01</option>
@@ -311,7 +311,7 @@
                               <div class="col-lg-6 col-md-6 col-12">
                                 <form>
                                   <div class="form-group">
-                                    <label for="exampleFormControlFile1 " class="pay-confirm-font">Conutry of Birth</label></label>
+                                    <label for="exampleFormControlFile1 " class="pay-en-text">Conutry of Birth</label></label>
                                       <select class="paycon-selected">
                                         <option>Afghanis</option>
                                         <option>ฤกษ์คลอดบุตร</option>
@@ -322,7 +322,7 @@
                               <div class="col-lg-6 col-md-6 col-12">
                                 <form>
                                   <div class="form-group">
-                                    <label  class="pay-confirm-font">State of Birth</label></label>
+                                    <label  class="pay-en-text">State of Birth</label></label>
                                       <select class="paycon-selected">
                                         <option>kabul</option>
                                         <option>kabul</option>

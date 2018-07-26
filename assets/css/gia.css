@@ -53,10 +53,12 @@ body,label,p,h1,h2,h3,h4,h5 {
 /* display: inline-block; */
 /* padding: 0px 33px; */
   cursor: pointer;
-  padding: 11px 25px 11px 23px;
+  padding: 11px 22px 11px 23px;
   height: 45px;
   background-color: #8e8b8b;
   color: #ffffff;
+  font-family: 'cs_prakasfdbold';
+
 }
 input[type="file"] {
     display: none;
@@ -92,7 +94,7 @@ input[type="file"] {
     width: 200px;
     height: 55px;
     font-size: 20px;
-    font-family: "cs-cs_prakasregular",sans-serif;
+    font-family: 'Roboto'!important;
     margin-top: 10px;
     transition: all 0.3s;
 }
@@ -103,7 +105,7 @@ input[type="file"] {
   width: 200px;
   height: 55px;
   font-size: 20px;
-
+font-family: 'Roboto'!important;
   margin-top: 10px;
   transition: all 0.3s;
 }
@@ -135,6 +137,12 @@ input[type="file"] {
   font-weight: 600;
     font-family: "cs-cs_prakasregular",sans-serif;
 }
+.pay-en-text{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'cs_prakasfdbold';
+
+}
 .pay-form-control {
     display: block;
     width: 100%;
@@ -151,6 +159,7 @@ input[type="file"] {
     border-radius: 0px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
       font-family: "cs-cs_prakasregular",sans-serif;
+
 }
 .paycon-selected {
     border: 1px solid #1e3d70;
@@ -163,6 +172,7 @@ input[type="file"] {
     height: 45px;
     font-size: 16px;
     font-weight: 300;
+
 
 }
 .paycon-selected-1 {
@@ -179,6 +189,7 @@ input[type="file"] {
       font-family: "cs-cs_prakasregular",sans-serif;
 
 }
+
 
 
 
@@ -215,7 +226,7 @@ input[type="file"] {
 .card-img-top{
   width: 100%;
   position: absolute;
-  transition:  all 0.9s;
+  transition:  all 0.5s;
   border-radius: 0px;
   transform: scale(1.5);
   top: 50px;
@@ -226,7 +237,8 @@ input[type="file"] {
 .card-img-top:hover{
     width: 100%;
     position: absolute;
-    transform: scale(1.9);
+    transform: scale(1.7);
+    transition: all 0.5s;
     opacity: 0.9;
 
 }
@@ -396,6 +408,12 @@ input[type="file"] {
 .pay-confirm-font {
     font-size: 16px;
     font-weight: 600;
+}
+.pay-en-text{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'cs_prakasfdbold';
+
 }
 .custom-file-upload {
     border: 1px solid #545050;
