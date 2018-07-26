@@ -57,7 +57,7 @@ body,label,p,h1,h2,h3,h4,h5 {
   height: 45px;
   background-color: #8e8b8b;
   color: #ffffff;
-  font-family: 'cs_prakasfdbold';
+  font-family: 'Roboto';
 
 }
 input[type="file"] {
@@ -138,9 +138,8 @@ font-family: 'Roboto'!important;
     font-family: "cs-cs_prakasregular",sans-serif;
 }
 .pay-en-text{
-  font-size: 18px;
-  font-weight: 600;
-  font-family: 'cs_prakasfdbold';
+  font-size: 16px;
+  font-family: 'Roboto';
 
 }
 .pay-form-control {
@@ -158,7 +157,7 @@ font-family: 'Roboto'!important;
     border: 1px solid #1e3d70;
     border-radius: 0px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-      font-family: "cs-cs_prakasregular",sans-serif;
+    font-family: 'Roboto';
 
 }
 .paycon-selected {
@@ -172,6 +171,7 @@ font-family: 'Roboto'!important;
     height: 45px;
     font-size: 16px;
     font-weight: 300;
+    font-family: 'Roboto';
 
 
 }
@@ -188,6 +188,93 @@ font-family: 'Roboto'!important;
     font-weight: 300;
       font-family: "cs-cs_prakasregular",sans-serif;
 
+}
+/**/
+.pay-select{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.pay-select input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    border:2px solid #1e3d70;
+}
+.pay-select input:checked ~ .checkmark {
+    background-color: #fff;
+    border :2px solid #1e3d70;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.pay-select input:checked ~ .checkmark:after {
+    display: block;
+}
+.pay-select .checkmark:after {
+    top: 3px;
+    left: 3px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #1e3d70;
+}
+/**/
+
+.pay-select-1{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.pay-select-1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    border:2px solid #1e3d70;
+}
+.pay-select-1 input:checked ~ .checkmark-1 {
+    background-color: #fff;
+    border :2px solid #1e3d70;
+}
+.checkmark-1:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.pay-select-1 input:checked ~ .checkmark-1:after {
+    display: block;
+}
+.pay-select-1 .checkmark-1:after {
+    top: 3px;
+    left: 3px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #1e3d70;
 }
 
 
@@ -283,7 +370,7 @@ font-family: 'Roboto'!important;
 
 }
 .btn-secondary {
-  background-color: #031f25 !important;
+  background-color: #000!important;
   width: 350px;
   height: 70px;
   border-radius: 0px;
@@ -294,18 +381,7 @@ font-family: 'Roboto'!important;
   font-family: "cs-cs_prakasregular",sans-serif;
   font-size: 30px;
 }
-.btn-secondary:hover {
-  background-color: #1c3c6f !important;
-  width: 350px;
-  height: 70px;
-  border-radius: 0px;
-  color: white;
-  border: 5px;
-  transition: all 0.3s;
-  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
-    font-family: "cs-cs_prakasregular",sans-serif;
-  font-size: 30px;
-}
+
 
 /*-----index end---*/
 
@@ -406,7 +482,7 @@ font-family: 'Roboto'!important;
     width: 100%;
 }
 .pay-confirm-font {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
 }
 .pay-en-text{
@@ -547,6 +623,11 @@ font-family: 'Roboto'!important;
     background-color: #8e8b8b;
     color: #ffffff;
     font-size: 16px;
+}
+.pay-en-text {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'cs_prakasfdbold';
 }
 /*--------pay 414 end-------------*/
 

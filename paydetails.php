@@ -43,15 +43,15 @@
                                     <div class="form-group">
                                       <div class="row">
                                         <div class="col-lg-4  col-md-4 col-12">
-                                          <label  class="pay-confirm-font my-lg-2 my-md-0 my-2">โอนเข้าธนาคาร</label></label>
+                                          <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">โอนเข้าธนาคาร</label></label>
                                           <input type="email" class="pay-form-control"  aria-describedby="emailHelp" placeholder="ไทยพาณิชย์">
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-12 ">
-                                          <label  class="pay-confirm-font my-lg-2 my-md-0 my-2">จำนวนเงินที่โอน</label></label>
+                                          <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">จำนวนเงินที่โอน</label></label>
                                           <input type="email" class="pay-form-control"  aria-describedby="emailHelp">
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-12 ">
-                                          <label for="exampleFormControlFile1" class="pay-confirm-font my-lg-2 my-md-0 my-2" >หลักฐาน</label>
+                                          <label for="exampleFormControlFile1" class="pay-confirm-font my-lg-2 my-md-2 my-2" >หลักฐาน</label>
                                           <div>
                                             <label class="custom-file-upload ">
                                               <input type="file"/>
@@ -68,10 +68,10 @@
                                       <div class="form-group">
                                         <div class="row">
                                           <div class="col-lg-8 ">
-                                            <label  class="pay-confirm-font my-lg-2 my-md-0 my-2">วันที่ทำรายการ</label>
+                                            <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">วันที่ทำรายการ</label>
                                             <div class="row">
                                               <div class="col-lg-4 col-md-4 col-12">
-                                                <label  class="pay-en-text my-lg-0 my-md-0 my-2">Day</label>
+                                                <label  class="pay-en-text my-lg-0 my-md-2 my-2">Day</label>
                                                 <select class="paycon-selected-1">
                                                   <option>1</option>
                                                   <option>2</option>
@@ -80,14 +80,14 @@
                                                 </select>
                                               </div>
                                               <div class="col-lg-4 col-md-4 col-12">
-                                                <label  class="pay-en-text my-lg-0 my-md-0 my-2">Month</label>
+                                                <label  class="pay-en-text my-lg-0 my-md-2 my-2">Month</label>
                                                 <select class="paycon-selected-1">
                                                   <option>1</option>
                                                   <option>2</option>
                                                 </select>
                                               </div>
                                               <div class="col-lg-4 col-md-4 col-12">
-                                                <label  class="pay-en-text my-lg-0 my-md-0 my-2">Year</label>
+                                                <label  class="pay-en-text my-lg-0 my-md-2 my-2">Year</label>
                                                 <select class="paycon-selected-1">
                                                   <option>1995</option>
                                                   <option>1996</option>
@@ -96,17 +96,17 @@
                                             </div>
                                           </div>
                                           <div class="col-lg-4">
-                                            <label  class="pay-confirm-font my-lg-2 my-md-0 my-2">เวลาที่ทำรายการ</label>
+                                            <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">เวลาที่ทำรายการ</label>
                                             <div class="row">
                                               <div class="col-lg-6 col-md-6 col-12 px-lg-2">
-                                                <label  class="pay-en-text my-lg-0 my-md-0 my-2">Hour</label>
+                                                <label  class="pay-en-text my-lg-0 my-md-2 my-2">Hour</label>
                                                 <select class="paycon-selected-1">
                                                   <option>12</option>
                                                   <option>11</option>
                                                 </select>
                                               </div>
                                               <div class="col-lg-6 col-md-6 col-12 px-lg-2">
-                                                <label  class="pay-en-text my-lg-0 my-md-0 my-2">Minute</label>
+                                                <label  class="pay-en-text my-lg-0 my-md-2 my-2">Minute</label>
                                                 <select class="paycon-selected-1">
                                                   <option>00</option>
                                                   <option>01</option>
@@ -156,21 +156,21 @@
                                 <form>
                                   <div class="row">
                                     <div class="col-lg-4 form-group">
-                                      <label  class="pay-confirm-font my-lg-2 my-md-0 my-2">เดือนที่แพลนไว้</label></label>
+                                      <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">เดือนที่แพลนไว้</label></label>
                                         <select class="paycon-selected">
                                           <option>มิถุนายน 2556</option>
                                           <option>มกราคม 2556</option>
                                         </select>
                                     </div>
                                     <div class="col-lg-4 form-group">
-                                      <label  class="pay-confirm-font my-lg-2 my-md-0 my-2">ประเทศที่อยู่</label></label>
+                                      <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">ประเทศที่อยู่</label></label>
                                         <select class="paycon-selected">
                                           <option>ลาว</option>
                                           <option>ไทย</option>
                                         </select>
                                     </div>
                                     <div class="col-lg-4 form-group">
-                                      <label  class="pay-confirm-font my-lg-2 my-md-0 my-2">รัฐ</label></label>
+                                      <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">รัฐ</label></label>
                                         <select class="paycon-selected">
                                           <option>นิวยอก</option>
                                           <option>ฤกษ์คลอดบุตร</option>
@@ -214,14 +214,14 @@
                                       <label class="pay-select">
                                           <input type="radio" name="radio" checked="checked">
                                           <span class="checkmark"></span>
-                                          <span for="" class="pay-font5">ชาย</span>
+                                          <span for="" class="pay-font5 ml-4">ชาย</span>
                                       </label>
                                     </div>
                                     <div class="form-inline col-xl-3 col-lg-3 col-md-3 col-4">
                                       <label class="pay-select">
                                           <input type="radio" name="radio">
                                           <span class="checkmark"></span>
-                                          <span for="" class="pay-font6">หญิง</span>
+                                          <span for="" class="pay-font6 ml-4">หญิง</span>
                                       </label>
                                     </div>
                                   </div>
@@ -235,17 +235,17 @@
                                   <label for="" class="pay-confirm-font" >สถานที่เกิดในประเทศไทย</label>
                                   <div class="form-row">
                                     <div class="form-inline col-xl-3 col-lg-3 col-md-3 col-4">
-                                      <label class="pay-select">
-                                          <input type="radio" name="radio" checked="checked">
-                                          <span class="checkmark"></span>
-                                          <span for="" class="pay-font5">ใช่</span>
+                                      <label class="pay-select-1">
+                                          <input type="radio" name="radio-1" checked="checked">
+                                          <span class="checkmark-1"></span>
+                                          <span for="" class="pay-font5 ml-4">ใช่</span>
                                       </label>
                                     </div>
                                     <div class="form-inline col-xl-3 col-lg-3 col-md-3 col-4">
-                                      <label class="pay-select">
-                                          <input type="radio" name="radio">
-                                          <span class="checkmark"></span>
-                                          <span for="" class="pay-font6">ไม่ใช่</span>
+                                      <label class="pay-select-1">
+                                          <input type="radio" name="radio-1">
+                                          <span class="checkmark-1"></span>
+                                          <span for="" class="pay-font6 ml-4">ไม่ใช่</span>
                                       </label>
                                     </div>
                                   </div>
