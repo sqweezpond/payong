@@ -14,6 +14,8 @@
     <div class="wrapper  fadeIn animated bg-1">
        <!-- CONTENT -->
 
+       <!-------------------card img------------------->
+
             <div class="container pb-5">
               <div class="row ">
                 <div class="col-lg-4  col-md-6 col-sm-12 col-12 mt-4">
@@ -65,16 +67,16 @@
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12  mt-lg-3 mt-4">
-                    <div class=" in-dex-card " >
-                      <div class="card-body px-0 pt-1">
-                        <p class="card-text pro_text_topics">ฤกษ์รับรถยนต์</p>
-                      </div>
-                      <div class="img-frame">
-                        <a href="paydetails.php">
-                          <img class="card-img-top" src="assets/images/OneDrive-2018-07-07/IMG_4230.JPG">
-                        </a>
-                      </div>
+                  <div class=" in-dex-card " >
+                    <div class="card-body px-0 pt-1">
+                      <p class="card-text pro_text_topics">ฤกษ์รับรถยนต์</p>
                     </div>
+                    <div class="img-frame">
+                      <a href="paydetails.php">
+                        <img class="card-img-top" src="assets/images/OneDrive-2018-07-07/IMG_4230.JPG">
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12  mt-lg-3 mt-4">
                   <div class=" in-dex-card " >
@@ -90,6 +92,9 @@
                 </div>
               </div>
           </div>
+
+          <!-------------------card img end------------------->
+
 
           <!-- button ------------>
             <div class="container">

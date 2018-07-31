@@ -193,13 +193,11 @@
                                 </form>
                               </div>
                               <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 px-0 text-center">
-                                  <i class="fa fa-check-circle pay-icon" aria-hidden="true"></i>
+                                <i class="fa fa-check-circle pay-icon" aria-hidden="true"></i>
                               </div>
                               <div class="col-lg-12">
                                 <label>(เพื่อติดต่อกรณีหากเกิดปัญหาการโอนเงิน)</label>
                               </div>
-
-
                               <div class="col-lg-6 my-lg-3">
                                 <div class="form-group ">
                                   <label for="" class="pay-confirm-font" >เพศ</label>
@@ -245,6 +243,7 @@
                                   </div>
                                 </div>
                               </div>
+
 
                               <div class="col-lg-12">
                                 <form>

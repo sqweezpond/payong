@@ -53,7 +53,7 @@ body,label,p,h1,h2,h3,h4,h5 {
 /* display: inline-block; */
 /* padding: 0px 33px; */
   cursor: pointer;
-  padding: 11px 22px 11px 23px;
+  padding: 11px 30px 0px 37px;
   height: 45px;
   background-color: #8e8b8b;
   color: #ffffff;
@@ -544,7 +544,7 @@ font-family: 'Roboto'!important;
     /* display: inline-block; */
     /* padding: 0px 33px; */
     cursor: pointer;
-    padding: 11px 7px 11px 9px;
+    padding: 11px 13px 0px 22px;
     height: 45px;
     background-color: #8e8b8b;
     color: #ffffff;
@@ -662,16 +662,16 @@ font-family: 'Roboto'!important;
       width: 100%;
   }
   .custom-file-upload {
-    border: 1px solid #545050;
-    /* display: inline-block; */
-    /* padding: 0px 33px; */
-    cursor: pointer;
-    padding: 12px 40px 10px 50px;
-    height: 45px;
-    background-color: #8e8b8b;
-    color: #ffffff;
-    font-size: 16px;
-}
+      border: 1px solid #545050;
+      /* display: inline-block; */
+      /* padding: 0px 33px; */
+      cursor: pointer;
+      padding: 10px 55px 0px 60px;
+      height: 45px;
+      background-color: #8e8b8b;
+      color: #ffffff;
+      font-size: 16px;
+  }
   /*-------------pay 768 end--------------*/
 
 
