@@ -67,7 +67,7 @@ body, {
     font-family: "cs-cs_prakasregular",sans-serif;
 }
 .nav-font4{
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     transition: all 0.3s;
     letter-spacing: 1px;
@@ -352,6 +352,21 @@ body, {
 @media(max-width: 1024px){
 
   /*----------- NAVBAR (1024)---------------*/
+  .nav-font4 {
+      font-size: 20px;
+      color: white;
+      transition: all 0.3s;
+      letter-spacing: 1px;
+      font-weight: 300;
+      font-family: "cs-cs_prakasregular",sans-serif;
+  }
+  .nav-font4:hover {
+      font-size: 20px;
+      color: #85C1E9;
+      transition: all 0.3s;
+      font-weight: 300;
+      font-family: "cs-cs_prakasregular",sans-serif;
+  }
   .nav-btn {
       background-color: #f9b742;
       width: 170px;
