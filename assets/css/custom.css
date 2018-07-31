@@ -148,12 +148,12 @@ body, {
 .nav-position-a{
     position: absolute;
     margin-top: -29px;
-    margin-left: -6px;
+    margin-left: -10px;
 }
 .nav-position-r{
     position: relative;
     margin-top: -8px;
-    margin-left: -14px;
+    margin-left: -20px;
     margin-bottom: 20px;
 }
 /*----------- END NAVBAR 1 --------------*/
