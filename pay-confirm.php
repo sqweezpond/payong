@@ -87,16 +87,14 @@
               </div>
           </div>
 
-          <!-- Button -------------------------------------------------------->
+          <!-- BUTTON -------------------------------------------------------->
           <div class="row paycon-m-t4">
             <div class="col-12 text-center text-lg-right text-md-right">
               <button class="btn paycon-btn1">Back</button>
               <button class="btn paycon-btn2">Confirm</button>
             </div>
           </div>
-
-
-
+          <!-- END BUTTON ---------------------------------------------------->
 
 
           <!-- END CONTANER ------>

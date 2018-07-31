@@ -14,13 +14,10 @@
     <div class="wrapper fadeIn animated">
        <!-- CONTENT -->
 
+           <div class="container">
+              <div class="row">
 
-
-                 <div class="container">
-                   <div class="row">
-
-                     <!--------------------------- box 1 end ------------------------->
-
+            <!--- box 1 end ------------------------->
                      <div class="col-lg-6">
                        <div>
                          <div class="pay-card my-5">
@@ -130,12 +127,9 @@
                           </div>
                        </div>
                      </div>
+             <!--- box 1 end ------------------------->
 
-
-
-                     <!--------------------------- box 1 end ------------------------->
-
-                     <!--------------------------- box 2 ----------------------------->
+             <!--- box 2 ----------------------------->
                      <div class="col-lg-6">
                       <div class="pay-card my-5">
                         <label class="pay-bg-top text-center">รายละเอียดการขอรับบริการ</label>
@@ -339,13 +333,10 @@
                           </div>
                        </div>
                      </div>
-                     <!--------------------------- box 2 ----------------------------->
+               <!-- box 2 ----------------------------->
 
-                   </div>
-                 </div>
-
-
-
+                  </div>
+               </div>
 
    <!-- END CONTENT ---------->
 </div>

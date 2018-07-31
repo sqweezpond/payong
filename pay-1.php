@@ -14,6 +14,7 @@
     <div class="wrapper fadeIn animated">
        <!-- CONTENT -->
 
+
         <div class="container pb-5">
             <div class="row pay1-p-t">
                 <div class="col-xl-4 col-lg-4 col-md-4 col-5 text-center text-lg-left text-md-left">
@@ -52,6 +53,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- END CONTANER ------>
         </div>
         <!-- END CONTENT ---------->
