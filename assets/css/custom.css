@@ -352,6 +352,21 @@ body, {
 @media(max-width: 1024px){
 
   /*----------- NAVBAR (1024)---------------*/
+  .nav-font4 {
+      font-size: 20px;
+      color: white;
+      transition: all 0.3s;
+      letter-spacing: 1px;
+      font-weight: 300;
+      font-family: "cs-cs_prakasregular",sans-serif;
+  }
+  .nav-font4:hover {
+      font-size: 20px;
+      color: #85C1E9;
+      transition: all 0.3s;
+      font-weight: 300;
+      font-family: "cs-cs_prakasregular",sans-serif;
+  }
   .nav-btn {
       background-color: #f9b742;
       width: 170px;
@@ -457,12 +472,12 @@ body, {
       color: #333333;
   }
   .nav-font4 {
-      font-size: 20px;
+      font-size: 18px;
       color: white;
       transition: all 0.3s;
   }
   .nav-font4:hover {
-      font-size: 20px;
+      font-size: 18px;
       color: #85C1E9;
       transition: all 0.3s;
   }
@@ -478,7 +493,7 @@ body, {
   .nav-bg2{
       background-color: #054372;
       padding: 10px;
-      margin-top: 40px;
+      margin-top: 22px;
   }
   .nav-m-t {
       margin-top: 5px;
@@ -498,14 +513,14 @@ body, {
       color: white;
       border: 2px solid white;
       background-color: inherit;
-      width: 40px;
-      height: 40px;
-      font-size: 16px;
+      width: 45px;
+      height: 45px;
+      font-size: 18px;
   }
   .nav-btn {
       background-color: #f9b742;
-      width: 136px;
-      height: 40px;
+      width: 140px;
+      height: 55px;
       font-size: 19px;
       color: #fff;
       transition: all 0.3s;
@@ -515,8 +530,8 @@ body, {
   }
   .nav-btn:hover {
       background-color: #5DADE2;
-      width: 136px;
-      height: 40px;
+      width: 140px;
+      height: 55px;
       font-size: 19px;
       color: #fff;
       transition: all 0.3s;
@@ -693,7 +708,7 @@ body, {
   .nav-bg2 {
       background-color: #054372;
       padding: 10px;
-      margin-top: 33px;
+      margin-top: 20px;
   }
   .nav-p-t2 {
       padding-top: 13px;
@@ -712,6 +727,36 @@ body, {
   .nav-padding-1 {
       padding-left: 20px;
       padding-right: 20px;
+  }
+  .nav-btn {
+      background-color: #f9b742;
+      width: 140px;
+      height: 50px;
+      font-size: 18px;
+      color: #fff;
+      transition: all 0.3s;
+      font-weight: 300;
+      font-family: "cs-cs_prakasregular",sans-serif;
+      letter-spacing: 1px;
+  }
+  .nav-btn:hover {
+      background-color: #5DADE2;
+      width: 140px;
+      height: 50px;
+      font-size: 18px;
+      color: #fff;
+      transition: all 0.3s;
+      font-weight: 300;
+      font-family: "cs-cs_prakasregular",sans-serif;
+      letter-spacing: 1px;
+  }
+  .nav-hamburger {
+      color: white;
+      border: 2px solid white;
+      background-color: inherit;
+      width: 45px;
+      height: 45px;
+      font-size: 19px;
   }
   /*----------- END NAVBAR (414) ---------------*/
 
@@ -803,7 +848,7 @@ body, {
   .nav-btn {
       background-color: #f9b742;
       width: 123px;
-      height: 40px;
+      height: 45px;
       font-size: 18px;
       color: #fff;
       transition: all 0.3s;
@@ -814,7 +859,7 @@ body, {
   .nav-btn:hover {
       background-color: #5DADE2;
       width: 123px;
-      height: 40px;
+      height: 45px;
       font-size: 18px;
       color: #fff;
       transition: all 0.3s;
@@ -830,7 +875,7 @@ body, {
   .nav-bg2 {
       background-color: #054372;
       padding: 10px;
-      margin-top: 23px;
+      margin-top: 19px;
   }
   .nav-p-t2 {
       padding-top: 10px;
@@ -845,6 +890,10 @@ body, {
       position: absolute;
       margin-top: -16px;
       margin-left: -3px;
+  }
+  .nav-padding-1 {
+      padding-left: 15px;
+      padding-right: 15px;
   }
   /*----------- END NAVBAR (375) ------------*/
   .footer-font {
@@ -942,6 +991,11 @@ body, {
       background-size: cover;
       height: 153px;
   }
+  .nav-bg2 {
+      background-color: #054372;
+      padding: 10px;
+      margin-top: 23px;
+  }
   .nav-p-t2 {
       padding-top: 12px;
   }
@@ -967,7 +1021,7 @@ body, {
   .nav-btn {
       background-color: #f9b742;
       width: 123px;
-      height: 37px;
+      height: 40px;
       font-size: 16px;
       color: #fff;
       transition: all 0.3s;
@@ -978,7 +1032,7 @@ body, {
   .nav-btn:hover {
       background-color: #5DADE2;
       width: 123px;
-      height: 37px;
+      height: 40px;
       font-size: 16px;
       color: #fff;
       transition: all 0.3s;
