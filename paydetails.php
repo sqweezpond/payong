@@ -28,7 +28,7 @@
                                   <form>
                                     <div class="form-group">
                                       <label  class="pay-confirm-font">ชื่อ/นามสกุลผู้โอน</label></label>
-                                      <input type="email" class="pay-form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="สมปอง อ๊องๆ">
+                                      <input type="email" class="pay-form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ชื่อ-นามสกุล">
                                     </div>
                                   </form>
                                 </div>
@@ -41,7 +41,7 @@
                                       <div class="row">
                                         <div class="col-lg-4  col-md-4 col-12">
                                           <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">โอนเข้าธนาคาร</label></label>
-                                          <input type="email" class="pay-form-control"  aria-describedby="emailHelp" placeholder="ไทยพาณิชย์">
+                                          <input type="email" class="pay-form-control"  aria-describedby="emailHelp" placeholder="เลือกธนาคาร">
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-12 ">
                                           <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">จำนวนเงินที่โอน</label></label>
@@ -117,7 +117,7 @@
                                   </div>
                                 <div class="col-xl-6 col-lg-12 col-md-12 col-12 my-4">
                                   <p>*หากพบปัญหาเรื่องการโอนเงิน <u>สามารถติดต่อได้ที่ 089 120 0321</u></p>
-                                  <p>**ผู้รับสายขออนุญาตรับฟังเฉพาะปัญหาเรื่องการดอนเงินเท่านั้น**</p>
+                                  <p>**ผู้รับสายขออนุญาตรับฟังเฉพาะปัญหาเรื่องการโอนเงินเท่านั้น**</p>
                                 </div>
                                 <div class="col-lg-6">
 
@@ -179,7 +179,7 @@
                                 <form>
                                   <div class="form-group">
                                     <label  class="pay-confirm-font">เบอร์โทรศัพท์</label></label>
-                                    <input type="email" class="pay-form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="098-852-9635">
+                                    <input type="email" class="pay-form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="xxx-xxx-xxxx">
                                   </div>
                                 </form>
                               </div>
@@ -192,7 +192,7 @@
                                 <form>
                                   <div class="form-group">
                                     <label  class="pay-confirm-font">อีเมล์ที่ได้รับ</label></label>
-                                    <input type="email" class="pay-form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="user@gmail.com">
+                                    <input type="email" class="pay-form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="user@mail.com">
                                   </div>
                                 </form>
                               </div>
