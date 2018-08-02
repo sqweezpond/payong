@@ -192,7 +192,7 @@
                               <div class="col-lg-6 col-md-6 col-sm-11 col-11">
                                 <form>
                                   <div class="form-group">
-                                    <label  class="pay-confirm-font">อีเมล์ติดต่อ</label></label>
+                                    <label  class="pay-confirm-font">อีเมลติดต่อ</label></label>
                                     <input type="email" class="pay-form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="user@mail.com">
                                   </div>
                                 </form>
