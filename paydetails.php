@@ -115,8 +115,8 @@
                                       </div>
                                     </form>
                                   </div>
-                                <div class="col-xl-6 col-lg-12 col-md-12 col-12 my-4">
-                                  <p>*หากพบปัญหาเรื่องการโอนเงิน <u>สามารถติดต่อได้ที่ 089 120 0321</u></p>
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-12 my-4 text-center">
+                                  <p>*หากพบปัญหาเรื่องการโอนเงิน <u>สามารถติดต่อได้ที่ 089 120 0321*</u></p>
                                   <p>**ผู้รับสายขออนุญาตรับฟังเฉพาะปัญหาเรื่องการโอนเงินเท่านั้น**</p>
                                 </div>
                                 <div class="col-lg-6">
@@ -142,6 +142,7 @@
                                       <select class="paycon-selected">
                                         <option>ฤกษ์แต่งงาน</option>
                                         <option>ฤกษ์คลอดบุตร</option>
+                                        <option>ฤกษ์ขึ้นบ้านใหม่</option>
                                       </select>
                                   </div>
                                 </form>
@@ -159,15 +160,15 @@
                                     <div class="col-lg-4 form-group">
                                       <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">ประเทศที่อยู่</label></label>
                                         <select class="paycon-selected">
-                                          <option>ลาว</option>
-                                          <option>ไทย</option>
+                                          <option>Laos</option>
+                                          <option>Thailand</option>
                                         </select>
                                     </div>
                                     <div class="col-lg-4 form-group">
                                       <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">รัฐ</label></label>
                                         <select class="paycon-selected">
                                           <option>นิวยอก</option>
-                                          <option>ฤกษ์คลอดบุตร</option>
+                                          <option></option>
                                         </select>
                                     </div>
                                   </div>
@@ -191,7 +192,7 @@
                               <div class="col-lg-6 col-md-6 col-sm-11 col-11">
                                 <form>
                                   <div class="form-group">
-                                    <label  class="pay-confirm-font">อีเมล์ที่ได้รับ</label></label>
+                                    <label  class="pay-confirm-font">อีเมล์ติดต่อ</label></label>
                                     <input type="email" class="pay-form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="user@mail.com">
                                   </div>
                                 </form>
@@ -313,7 +314,7 @@
                                     <label for="exampleFormControlFile1 " class="pay-en-text">Conutry of Birth</label></label>
                                       <select class="paycon-selected">
                                         <option>Afghanis</option>
-                                        <option>ฤกษ์คลอดบุตร</option>
+                                        <option></option>
                                       </select>
                                   </div>
                                 </form>
@@ -323,15 +324,19 @@
                                   <div class="form-group">
                                     <label  class="pay-en-text">State of Birth</label></label>
                                       <select class="paycon-selected">
-                                        <option>kabul</option>
-                                        <option>kabul</option>
+                                        <option>Kabul</option>
+                                        <option>Kabul</option>
                                       </select>
                                   </div>
                                 </form>
                               </div>
-                              <div class="col-lg-12 text-lg-right text-center">
+
+                              <div class="col-lg-6 text-lg-right text-center mt-lg-2">
+                						  	<img src="assets/images/OneDrive-2018-07-07/newCaptchaAnchor.gif" alt="calypso" class="img-fluid">
+                						  </div>
+                              <div class="col-lg-6 text-lg-right text-center">
                                 <a href="pay-1.php">
-                                  <button type="button" class="pay-btn btn-primary-pay">Summit</button>
+                                  <button type="button" class="pay-btn btn-primary-pay">Submit</button>
                                 </a>
                               </div>
                             </div>

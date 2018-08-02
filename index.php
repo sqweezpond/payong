@@ -24,7 +24,7 @@
                       <p class="card-text pro_text_topics">บริการโหราศาสตร์</p>
                     </div>
                     <div class="img-frame">
-                      <a href="paydetails.php">
+                      <a href="pay-1.php">
                         <img class="card-img-top" src="assets/images/OneDrive-2018-07-07/background หน้าแรกของเวปภาษาไทย.JPG" alt="Card image">
                       </a>
                     </div>
@@ -36,7 +36,7 @@
                       <p class="card-text pro_text_topics">ฤกษ์คลอดบุตร</p>
                     </div>
                     <div class="img-frame">
-                      <a href="paydetails.php">
+                      <a href="pay-1.php">
                         <img class="card-img-top" src="assets/images/OneDrive-2018-07-07/IMG_4233.jpg">
                       </a>
                     </div>
@@ -48,7 +48,7 @@
                       <p class="card-text pro_text_topics">ฤกษ์แต่งงาน</p>
                     </div>
                     <div class="img-frame">
-                      <a href="paydetails.php">
+                      <a href="pay-1.php">
                         <img class="card-img-top" src="assets/images/OneDrive-2018-07-07/IMG_4234.JPG">
                       </a>
                     </div>
@@ -60,7 +60,7 @@
                       <p class="card-text pro_text_topics">ฤกษ์ขึ้นบ้านใหม่</p>
                     </div>
                     <div class="img-frame">
-                      <a href="paydetails.php">
+                      <a href="pay-1.php">
                         <img class="card-img-top" src="assets/images/OneDrive-2018-07-07/IMG_4228.JPG">
                       </a>
                     </div>
@@ -72,7 +72,7 @@
                       <p class="card-text pro_text_topics">ฤกษ์รับรถยนต์</p>
                     </div>
                     <div class="img-frame">
-                      <a href="paydetails.php">
+                      <a href="pay-1.php">
                         <img class="card-img-top" src="assets/images/OneDrive-2018-07-07/IMG_4230.JPG">
                       </a>
                     </div>
@@ -84,7 +84,7 @@
                       <p class="card-text pro_text_topics">ฤกษ์เปิดกิจการ</p>
                     </div>
                     <div class="img-frame">
-                      <a href="paydetails.php">
+                      <a href="pay-1.php">
                         <img class="card-img-top" src="assets/images/OneDrive-2018-07-07/IMG_4363.JPG">
                       </a>
                     </div>
