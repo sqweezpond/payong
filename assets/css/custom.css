@@ -499,6 +499,15 @@ body, {
   ---------------------------------------*/
 }
 
+@media(max-width: 1014px){
+  .nav-position-a {
+      position: absolute;
+      margin-top: -34px;
+      margin-left: -40px;
+  }
+
+}
+
 
 @media(max-width: 768px){
   /*----------- NAVBAR (768) ------------------*/
@@ -707,6 +716,7 @@ body, {
     position: absolute;
     margin-top: -26px;
     margin-left: -43px;
+    font-size: 17px;
 }
 
 }
@@ -878,6 +888,13 @@ body, {
   -------- END PAY-CONFIRM 414 -----------
   ---------------------------------------*/
 }
+@media(max-width: 411px){
+  .nav-position-a {
+    position: absolute;
+    margin-top: -22px;
+    margin-left: -14px;
+}
+}
 
 
 @media(max-width: 375px){
@@ -997,6 +1014,16 @@ body, {
   /*------------------------------------
   ---------- END PAY-CONFIRM 375 --------------
   -------------------------------------*/
+
+}
+
+@media(max-width: 411px){
+  .nav-position-a {
+    position: absolute;
+    margin-top: -16px;
+    margin-left: -8px;
+    font-size: x-small;
+}
 
 }
 
