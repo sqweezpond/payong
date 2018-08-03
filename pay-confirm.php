@@ -35,44 +35,40 @@
                   </div>
                   <div class="col-xl-6 col-lg-6 col-md-6 col-6">
                       <div class="paycon-font2">วันที่ทำรายการ</div>
-                      <div class="paycon-font3">7 / 7 / 2561 10:30:25</div>
+                      <div class="paycon-font3">7 / 7 / 2561 10:30</div>
                   </div>
                 </div>
                 <div class="row paycon-m-t2">
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-6">
-                      <div class="paycon-font2">โอนเข้าธนาคาร</div>
-                      <div class="paycon-font3">ไทยพาณิชย์</div>
-                  </div>
                   <div class="col-xl-6 col-lg-6 col-md-6 col-6">
                       <div class="paycon-font2">บริการที่รับ</div>
                       <div class="paycon-font3">บริการโหราศาสตร์</div>
                   </div>
-                </div>
-                <div class="row paycon-m-t2">
                   <div class="col-xl-6 col-lg-6 col-md-6 col-6">
                       <div class="paycon-font2">อีเมลที่รับบริการ</div>
                       <div class="paycon-font3">horos@gmail.com</div>
                   </div>
+                </div>
+                <div class="row paycon-m-t2">
                   <div class="col-xl-6 col-lg-6 col-md-6 col-6">
                       <div class="paycon-font2">เพศของคนที่รับบริการ</div>
                       <div class="paycon-font3">ชาย</div>
                   </div>
-                </div>
-                <div class="row paycon-m-t2">
                   <div class="col-xl-6 col-lg-6 col-md-6 col-6">
                       <div class="paycon-font2">เบอร์โทรศัพท์</div>
                       <div class="paycon-font3">0891234567</div>
                   </div>
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-6">
-                      <div class="paycon-font2">เวลาเกิด</div>
-                      <div class="paycon-font3">23.00</div>
-                  </div>
                 </div>
                 <div class="row paycon-m-t2">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-6">
+                      <div class="paycon-font2">เวลาเกิด</div>
+                      <div class="paycon-font3">23:00</div>
+                  </div>
                   <div class="col-xl-6 col-lg-6 col-md-6 col-6">
                       <div class="paycon-font2">วันเดือนปีเกิด</div>
                       <div class="paycon-font3">5 / 5 / 2531</div>
                   </div>
+                </div>
+                <div class="row paycon-m-t2">
                   <div class="col-xl-6 col-lg-6 col-md-6 col-6">
                       <div class="paycon-font2">สถานที่เกิด</div>
                       <div class="paycon-font3">ประเทศไทย</div>
