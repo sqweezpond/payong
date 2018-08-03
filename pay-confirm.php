@@ -90,7 +90,7 @@
           <!-- BUTTON -------------------------------------------------------->
           <div class="row paycon-m-t4">
             <div class="col-12 text-center text-lg-right text-md-right">
-              <button class="btn paycon-btn1">Back</button>
+              <a href="paydetails.php"><button class="btn paycon-btn1">Back</button></a>
               <button class="btn paycon-btn2">Confirm</button>
             </div>
           </div>

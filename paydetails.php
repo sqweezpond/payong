@@ -48,7 +48,7 @@
                                           <input type="email" class="pay-form-control"  aria-describedby="emailHelp">
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-12 ">
-                                          <label for="exampleFormControlFile1" class="pay-confirm-font my-lg-2 my-md-2 my-2" >หลักฐาน</label>
+                                          <label for="exampleFormControlFile1" class="pay-confirm-font my-lg-2 my-md-2 my-2" >หลักฐานการโอน</label>
                                           <div>
                                             <label class="custom-file-upload ">
                                               <input type="file"/>
@@ -67,7 +67,7 @@
                                           <div class="col-lg-8 ">
                                             <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">วันที่ทำรายการ</label>
                                             <div class="row">
-                                              <div class="col-lg-4 col-md-4 col-12">
+                                              <div class="col-lg-4 col-md-4 col-12 px-lg-2">
                                                 <label  class="pay-en-text my-lg-2 my-md-2 my-2">Day</label>
                                                 <select class="paycon-selected-1">
                                                   <option>1</option>
@@ -76,14 +76,14 @@
                                                   <option>4</option>
                                                 </select>
                                               </div>
-                                              <div class="col-lg-4 col-md-4 col-12">
+                                              <div class="col-lg-4 col-md-4 col-12 px-lg-2">
                                                 <label  class="pay-en-text my-lg-2 my-md-2 my-2">Month</label>
                                                 <select class="paycon-selected-1">
                                                   <option>1</option>
                                                   <option>2</option>
                                                 </select>
                                               </div>
-                                              <div class="col-lg-4 col-md-4 col-12">
+                                              <div class="col-lg-4 col-md-4 col-12 px-lg-2">
                                                 <label  class="pay-en-text my-lg-2 my-md-2 my-2">Year</label>
                                                 <select class="paycon-selected-1">
                                                   <option>1995</option>
@@ -116,7 +116,7 @@
                                     </form>
                                   </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-12 my-4 text-center">
-                                  <p>*หากพบปัญหาเรื่องการโอนเงิน <u>สามารถติดต่อได้ที่ 089 120 0321*</u></p>
+                                  <p>*หากพบปัญหาเรื่องการโอนเงิน <u>สามารถติดต่อได้ที่ 062 951 9698*</u></p>
                                   <p>**ผู้รับสายขออนุญาตรับฟังเฉพาะปัญหาเรื่องการโอนเงินเท่านั้น**</p>
                                 </div>
                                 <div class="col-lg-6">
@@ -167,7 +167,7 @@
                                     <div class="col-lg-4 form-group">
                                       <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">รัฐ</label></label>
                                         <select class="paycon-selected">
-                                          <option>นิวยอก</option>
+                                          <option> New York</option>
                                           <option></option>
                                         </select>
                                     </div>
@@ -259,7 +259,7 @@
                                       <div class="col-lg-8">
                                         <label  class="pay-confirm-font my-2">วันเดือนปีเกิด</label>
                                         <div class="row">
-                                          <div class="col-lg-4 col-md-4 col-12 ">
+                                          <div class="col-lg-4 col-md-4 col-12  px-lg-2">
                                             <label  class="pay-en-text my-lg-2 my-md-2 my-2">Day</label>
                                             <select class="paycon-selected-1">
                                               <option>1</option>
@@ -268,14 +268,14 @@
                                               <option>4</option>
                                             </select>
                                           </div>
-                                          <div class="col-lg-4 col-md-4 col-12">
+                                          <div class="col-lg-4 col-md-4 col-12 px-lg-2">
                                             <label  class="pay-en-text my-lg-2 my-md-2 my-2">Month</label>
                                             <select class="paycon-selected-1">
                                               <option>1</option>
                                               <option>2</option>
                                             </select>
                                           </div>
-                                          <div class="col-lg-4 col-md-4 col-12">
+                                          <div class="col-lg-4 col-md-4 col-12 px-lg-2">
                                             <label  class="pay-en-text my-lg-2 my-md-2 my-2">Year</label>
                                             <select class="paycon-selected-1">
                                               <option>1995</option>
@@ -311,7 +311,7 @@
                               <div class="col-lg-6 col-md-6 col-12">
                                 <form>
                                   <div class="form-group">
-                                    <label for="exampleFormControlFile1 " class="pay-en-text">Conutry of Birth</label></label>
+                                    <label for="exampleFormControlFile1 " class="pay-en-text">Country of Birth</label></label>
                                       <select class="paycon-selected">
                                         <option>Afghanis</option>
                                         <option></option>
@@ -335,7 +335,7 @@
                 						  	<img src="assets/images/OneDrive-2018-07-07/newCaptchaAnchor.gif" alt="calypso" class="img-fluid">
                 						  </div>
                               <div class="col-lg-6 text-lg-right text-center">
-                                <a href="pay-1.php">
+                                <a href="pay-confirm.php">
                                   <button type="button" class="pay-btn btn-primary-pay">Submit</button>
                                 </a>
                               </div>

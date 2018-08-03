@@ -702,6 +702,15 @@ body, {
   ---------------------------------------*/
 }
 
+@media(max-width: 644px){
+  .nav-position-a {
+    position: absolute;
+    margin-top: -26px;
+    margin-left: -43px;
+}
+
+}
+
 
 @media(max-width: 414px){
   /*----------- NAVBAR (414) ------------------*/
@@ -762,7 +771,7 @@ body, {
   .nav-position-a{
       position: absolute;
       margin-top: -22px;
-      margin-left: -3px;
+      margin-left: -12px;
   }
   .nav-position-r{
       position: relative;
@@ -935,7 +944,7 @@ body, {
   .nav-position-a {
       position: absolute;
       margin-top: -16px;
-      margin-left: -3px;
+      margin-left: -13px;
   }
   .nav-padding-1 {
       padding-left: 15px;
@@ -1048,7 +1057,7 @@ body, {
   .nav-position-a{
       position: absolute;
       margin-top: -17px;
-      margin-left: -3px;
+      margin-left: -13px;
   }
   .nav-position-r{
       position: relative;
