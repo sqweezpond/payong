@@ -336,6 +336,32 @@ body, {
 
 
 
+
+
+@media(max-width: 1670px){
+  .nav-padding-1 {
+      padding-left: 180px;
+      padding-right: 180px;
+  }
+
+}
+
+
+
+
+@media(max-width: 1430px){
+  .nav-padding-1 {
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+
+}
+
+
+
+
+
+
 @media(max-width: 1366px){
   /*----------- NAVBAR (1366)--------------*/
   .nav-padding-1{
@@ -348,6 +374,26 @@ body, {
   /*---------- FOOTER (1366)------------*/
 
   /*----------END FOOTER (1366)------------*/
+}
+@media(max-width: 1273px){
+  .nav-padding-1 {
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+}
+
+@media(max-width: 1160px){
+  .nav-padding-1 {
+    padding-left: 40px;
+    padding-right: 70px;
+}
+
+@media(max-width: 1070px){
+  .nav-padding-1 {
+      padding-left: 35px;
+      padding-right: 35px;
+  }
 }
 
 
@@ -453,6 +499,15 @@ body, {
   /*-------------------------------------
   -------- END PAY-CONFIRM 1024 ---------
   ---------------------------------------*/
+}
+
+@media(max-width: 1014px){
+  .nav-position-a {
+      position: absolute;
+      margin-top: -34px;
+      margin-left: -40px;
+  }
+
 }
 
 
@@ -658,6 +713,16 @@ body, {
   ---------------------------------------*/
 }
 
+@media(max-width: 644px){
+  .nav-position-a {
+    position: absolute;
+    margin-top: -26px;
+    margin-left: -43px;
+    font-size: 17px;
+}
+
+}
+
 
 @media(max-width: 414px){
   /*----------- NAVBAR (414) ------------------*/
@@ -718,7 +783,7 @@ body, {
   .nav-position-a{
       position: absolute;
       margin-top: -22px;
-      margin-left: -3px;
+      margin-left: -12px;
   }
   .nav-position-r{
       position: relative;
@@ -825,6 +890,13 @@ body, {
   -------- END PAY-CONFIRM 414 -----------
   ---------------------------------------*/
 }
+@media(max-width: 411px){
+  .nav-position-a {
+    position: absolute;
+    margin-top: -22px;
+    margin-left: -14px;
+}
+}
 
 
 @media(max-width: 375px){
@@ -891,7 +963,7 @@ body, {
   .nav-position-a {
       position: absolute;
       margin-top: -16px;
-      margin-left: -3px;
+      margin-left: -13px;
   }
   .nav-padding-1 {
       padding-left: 15px;
@@ -944,6 +1016,16 @@ body, {
   /*------------------------------------
   ---------- END PAY-CONFIRM 375 --------------
   -------------------------------------*/
+
+}
+
+@media(max-width: 411px){
+  .nav-position-a {
+    position: absolute;
+    margin-top: -16px;
+    margin-left: -8px;
+    font-size: x-small;
+}
 
 }
 
@@ -1004,7 +1086,7 @@ body, {
   .nav-position-a{
       position: absolute;
       margin-top: -17px;
-      margin-left: -3px;
+      margin-left: -13px;
   }
   .nav-position-r{
       position: relative;
