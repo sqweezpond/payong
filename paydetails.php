@@ -159,28 +159,22 @@
                                     </div>
                                     <div class="col-lg-4 form-group">
                                       <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">ประเทศที่อยู่</label></label>
-<<<<<<< HEAD
                                         <select class="paycon-selected custom-select">
                                           <option>ลาว</option>
                                           <option>ไทย</option>
-=======
                                         <select class="paycon-selected">
                                           <option>Laos</option>
                                           <option>Thailand</option>
->>>>>>> 2fdbfd5bdb489a1f4b52f3571b0f27a58606d17b
                                         </select>
                                     </div>
                                     <div class="col-lg-4 form-group">
                                       <label  class="pay-confirm-font my-lg-2 my-md-2 my-2">รัฐ</label></label>
-<<<<<<< HEAD
                                         <select class="paycon-selected custom-select">
                                           <option>นิวยอก</option>
                                           <option>ฤกษ์คลอดบุตร</option>
-=======
                                         <select class="paycon-selected">
                                           <option> New York</option>
                                           <option></option>
->>>>>>> 2fdbfd5bdb489a1f4b52f3571b0f27a58606d17b
                                         </select>
                                     </div>
                                   </div>
@@ -323,13 +317,11 @@
                               <div class="col-lg-6 col-md-6 p col-6 px-2">
                                 <form>
                                   <div class="form-group">
-<<<<<<< HEAD
                                     <label for="exampleFormControlFile1 " class="pay-en-text">Conutry of Birth</label></label>
                                       <select class="paycon-selected custom-select">
-=======
+
                                     <label for="exampleFormControlFile1 " class="pay-en-text">Country of Birth</label></label>
                                       <select class="paycon-selected">
->>>>>>> 2fdbfd5bdb489a1f4b52f3571b0f27a58606d17b
                                         <option>Afghanis</option>
                                         <option></option>
                                       </select>
@@ -340,15 +332,13 @@
                                 <form>
                                   <div class="form-group">
                                     <label  class="pay-en-text">State of Birth</label></label>
-<<<<<<< HEAD
                                       <select class="paycon-selected custom-select">
                                         <option>kabul</option>
                                         <option>kabul</option>
-=======
+
                                       <select class="paycon-selected">
                                         <option>Kabul</option>
                                         <option>Kabul</option>
->>>>>>> 2fdbfd5bdb489a1f4b52f3571b0f27a58606d17b
                                       </select>
                                   </div>
                                 </form>
